@@ -1,0 +1,42 @@
+{
+  "model": "openai/gpt-6-luna",
+  "base_url": "https://openrouter.ai/api/v1",
+  "n": 3,
+  "max_steps": 6,
+  "pricing": {
+    "prompt": "0.0000001",
+    "completion": "0.0000005",
+    "web_search": "0.01",
+    "input_cache_read": "0.00000001",
+    "input_cache_write": "0.000000125",
+    "overrides": [
+      {
+        "min_prompt_tokens": 272000,
+        "prompt": "0.0000002",
+        "completion": "0.00000075",
+        "input_cache_read": "0.00000002",
+        "input_cache_write": "0.00000025"
+      }
+    ]
+  },
+  "timestamp_utc": "2026-10-12T18:26:00.591690+00:00",
+  "dataset_sha256": "d2996e77c5cdd069f700503eec9a3fb845056eda8adafadbe4e2b24d97263af2",
+  "code_sha256": {
+    "assignment\\__init__.py": "efae4a554467cb1f0fc9e3249703d75ab841417a07858407bdf878aeba7e3cd0",
+    "assignment\\cases.py": "6e370804694fafc1b8555c7f4322113bfa2948283a2923e19056a7d5e4c8720d",
+    "assignment\\loop.py": "1350ea00a3117d348383d2bef048c6329791c5b93a7212e001949f4471a599dd",
+    "assignment\\metrics.py": "2a4d330a0d99b7709a9c42153884a02b9f34ae68acade615cdc667571608f35d",
+    "assignment\\reporting.py": "b980b0d1ce649f33fb2eddbbe811819e9a568f01a2e0fc880b4e303ad5dd6e0b",
+    "assignment\\tools.py": "482849fd5b47cae4e64e48f716198c3d37f9b173df5b73b7dd89d45c97d0be92"
+  },
+  "temperature": 0.2,
+  "reasoning_effort": "none",
+  "schedule": "paired AB/BA, alternates by task and repeat",
+  "dataset": "week2/practice/poi.sqlite",
+  "evaluation_revision": {
+    "version": "v2-format-normalization",
+    "changed_attempts": 18,
+    "reason": "Equivalent Russian time intervals and phone separators were incorrectly rejected by v1",
+    "cases_sha256": "63f2eb0160b96845a32fe006f95101e7002032b6739f939f525d76957e9e517d"
+  }
+}

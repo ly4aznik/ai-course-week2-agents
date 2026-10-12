@@ -1,0 +1,12 @@
+[project]
+name = "rostov-agent-assignment"
+version = "0.1.0"
+description = "Week 2: a tool-calling loop and reproducible description experiment"
+requires-python = ">=3.12,<3.14"
+dependencies = ["openai==3.29.0", "pydantic==2.14.1", "python-dotenv==1.2.4", "openai-agents==0.23.1", "nbformat==5.11.1", "nbclient==0.11.0", "ipykernel==7.4.0"]
+
+[tool.uv]
+package = false
+
+[dependency-groups]
+report = ["reportlab==4.4.9", "pypdf==6.10.0"]

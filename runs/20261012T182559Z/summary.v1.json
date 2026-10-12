@@ -1,0 +1,54 @@
+{
+  "short": {
+    "attempts": 30,
+    "tasks": 10,
+    "pass_at_1": 0.7,
+    "first_repeat_success": 0.7,
+    "pass_power_n": 0.7,
+    "tool_args_successes": 30,
+    "tool_args_rate": 1.0,
+    "wilson95": [
+      0.8864866068260312,
+      0.9999999999999999
+    ],
+    "mean_input_tokens": 1976.0333333333333,
+    "mean_output_tokens": 78.03333333333333,
+    "mean_total_tokens": 2054.0666666666666,
+    "mean_cost_usd": 0.0002240425,
+    "mean_steps": 2.3,
+    "total_cost_usd": 0.006721275,
+    "cost_sources": [
+      "provider_usage.cost"
+    ]
+  },
+  "full": {
+    "attempts": 30,
+    "tasks": 10,
+    "pass_at_1": 0.7,
+    "first_repeat_success": 0.7,
+    "pass_power_n": 0.7,
+    "tool_args_successes": 30,
+    "tool_args_rate": 1.0,
+    "wilson95": [
+      0.8864866068260312,
+      0.9999999999999999
+    ],
+    "mean_input_tokens": 3279.9,
+    "mean_output_tokens": 77.83333333333333,
+    "mean_total_tokens": 3357.733333333333,
+    "mean_cost_usd": 8.461100000000001e-05,
+    "mean_steps": 2.3,
+    "total_cost_usd": 0.00253833,
+    "cost_sources": [
+      "provider_usage.cost"
+    ]
+  },
+  "comparison": {
+    "additional_correct_attempts": 0,
+    "additional_cost_usd": -0.0041829449999999995,
+    "additional_mean_input_tokens": 1303.8666666666668,
+    "cost_per_additional_correct_attempt_usd": null,
+    "cost_per_correct_short": 0.0002240425,
+    "cost_per_correct_full": 8.461100000000001e-05
+  }
+}

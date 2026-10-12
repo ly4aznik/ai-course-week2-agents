@@ -1,0 +1,4406 @@
+[
+  {
+    "task": "T01",
+    "variant": "short",
+    "repeat": 1,
+    "diagnostic": null,
+    "log": "T01_short_1.jsonl",
+    "final": "В Ростове 330 аптек.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "count_places",
+        "requested_arguments": "{\"kind\":\"pharmacy\",\"only_24_7\":false}",
+        "ok": true,
+        "arguments": {
+          "kind": "pharmacy",
+          "only_24_7": false
+        },
+        "executed_arguments": "{\"kind\":\"pharmacy\",\"only_24_7\":false}",
+        "observation": {
+          "kind": "pharmacy",
+          "only_24_7": false,
+          "count": 330
+        }
+      }
+    ],
+    "input_tokens": 1574,
+    "output_tokens": 39,
+    "cost_usd": 0.00017690000000000002,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "count_places",
+          {
+            "kind": "pharmacy",
+            "only_24_7": false
+          }
+        ]
+      ],
+      "expected_facts": [
+        "330"
+      ]
+    }
+  },
+  {
+    "task": "T01",
+    "variant": "full",
+    "repeat": 1,
+    "diagnostic": null,
+    "log": "T01_full_1.jsonl",
+    "final": "В базе Ростова — 330 аптек.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "count_places",
+        "requested_arguments": "{\"kind\":\"pharmacy\",\"only_24_7\":false}",
+        "ok": true,
+        "arguments": {
+          "kind": "pharmacy",
+          "only_24_7": false
+        },
+        "executed_arguments": "{\"kind\":\"pharmacy\",\"only_24_7\":false}",
+        "observation": {
+          "kind": "pharmacy",
+          "only_24_7": false,
+          "count": 330
+        }
+      }
+    ],
+    "input_tokens": 2708,
+    "output_tokens": 41,
+    "cost_usd": 0.000206935,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "count_places",
+          {
+            "kind": "pharmacy",
+            "only_24_7": false
+          }
+        ]
+      ],
+      "expected_facts": [
+        "330"
+      ]
+    }
+  },
+  {
+    "task": "T01",
+    "variant": "full",
+    "repeat": 2,
+    "diagnostic": null,
+    "log": "T01_full_2.jsonl",
+    "final": "В базе Ростова — 330 аптек.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "count_places",
+        "requested_arguments": "{\"kind\":\"pharmacy\",\"only_24_7\":false}",
+        "ok": true,
+        "arguments": {
+          "kind": "pharmacy",
+          "only_24_7": false
+        },
+        "executed_arguments": "{\"kind\":\"pharmacy\",\"only_24_7\":false}",
+        "observation": {
+          "kind": "pharmacy",
+          "only_24_7": false,
+          "count": 330
+        }
+      }
+    ],
+    "input_tokens": 2708,
+    "output_tokens": 41,
+    "cost_usd": 4.812e-05,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "count_places",
+          {
+            "kind": "pharmacy",
+            "only_24_7": false
+          }
+        ]
+      ],
+      "expected_facts": [
+        "330"
+      ]
+    }
+  },
+  {
+    "task": "T01",
+    "variant": "short",
+    "repeat": 2,
+    "diagnostic": null,
+    "log": "T01_short_2.jsonl",
+    "final": "В базе Ростова 330 аптек.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "count_places",
+        "requested_arguments": "{\"kind\":\"pharmacy\",\"only_24_7\":false}",
+        "ok": true,
+        "arguments": {
+          "kind": "pharmacy",
+          "only_24_7": false
+        },
+        "executed_arguments": "{\"kind\":\"pharmacy\",\"only_24_7\":false}",
+        "observation": {
+          "kind": "pharmacy",
+          "only_24_7": false,
+          "count": 330
+        }
+      }
+    ],
+    "input_tokens": 1574,
+    "output_tokens": 40,
+    "cost_usd": 0.0001774,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "count_places",
+          {
+            "kind": "pharmacy",
+            "only_24_7": false
+          }
+        ]
+      ],
+      "expected_facts": [
+        "330"
+      ]
+    }
+  },
+  {
+    "task": "T01",
+    "variant": "short",
+    "repeat": 3,
+    "diagnostic": null,
+    "log": "T01_short_3.jsonl",
+    "final": "В Ростове 330 аптек.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "count_places",
+        "requested_arguments": "{\"kind\":\"pharmacy\",\"only_24_7\":false}",
+        "ok": true,
+        "arguments": {
+          "kind": "pharmacy",
+          "only_24_7": false
+        },
+        "executed_arguments": "{\"kind\":\"pharmacy\",\"only_24_7\":false}",
+        "observation": {
+          "kind": "pharmacy",
+          "only_24_7": false,
+          "count": 330
+        }
+      }
+    ],
+    "input_tokens": 1574,
+    "output_tokens": 39,
+    "cost_usd": 0.00017690000000000002,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "count_places",
+          {
+            "kind": "pharmacy",
+            "only_24_7": false
+          }
+        ]
+      ],
+      "expected_facts": [
+        "330"
+      ]
+    }
+  },
+  {
+    "task": "T01",
+    "variant": "full",
+    "repeat": 3,
+    "diagnostic": null,
+    "log": "T01_full_3.jsonl",
+    "final": "В базе Ростова 330 аптек.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "count_places",
+        "requested_arguments": "{\"kind\":\"pharmacy\",\"only_24_7\":false}",
+        "ok": true,
+        "arguments": {
+          "kind": "pharmacy",
+          "only_24_7": false
+        },
+        "executed_arguments": "{\"kind\":\"pharmacy\",\"only_24_7\":false}",
+        "observation": {
+          "kind": "pharmacy",
+          "only_24_7": false,
+          "count": 330
+        }
+      }
+    ],
+    "input_tokens": 2708,
+    "output_tokens": 40,
+    "cost_usd": 4.762e-05,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "count_places",
+          {
+            "kind": "pharmacy",
+            "only_24_7": false
+          }
+        ]
+      ],
+      "expected_facts": [
+        "330"
+      ]
+    }
+  },
+  {
+    "task": "T02",
+    "variant": "full",
+    "repeat": 1,
+    "diagnostic": null,
+    "log": "T02_full_1.jsonl",
+    "final": "В Ростове 19 круглосуточных аптек.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "count_places",
+        "requested_arguments": "{\"kind\":\"pharmacy\",\"only_24_7\":true}",
+        "ok": true,
+        "arguments": {
+          "kind": "pharmacy",
+          "only_24_7": true
+        },
+        "executed_arguments": "{\"kind\":\"pharmacy\",\"only_24_7\":true}",
+        "observation": {
+          "kind": "pharmacy",
+          "only_24_7": true,
+          "count": 19
+        }
+      }
+    ],
+    "input_tokens": 2714,
+    "output_tokens": 43,
+    "cost_usd": 5.792e-05,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "count_places",
+          {
+            "kind": "pharmacy",
+            "only_24_7": true
+          }
+        ]
+      ],
+      "expected_facts": [
+        "19"
+      ]
+    }
+  },
+  {
+    "task": "T02",
+    "variant": "short",
+    "repeat": 1,
+    "diagnostic": null,
+    "log": "T02_short_1.jsonl",
+    "final": "В Ростове 19 круглосуточных аптек.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "count_places",
+        "requested_arguments": "{\"kind\":\"pharmacy\",\"only_24_7\":true}",
+        "ok": true,
+        "arguments": {
+          "kind": "pharmacy",
+          "only_24_7": true
+        },
+        "executed_arguments": "{\"kind\":\"pharmacy\",\"only_24_7\":true}",
+        "observation": {
+          "kind": "pharmacy",
+          "only_24_7": true,
+          "count": 19
+        }
+      }
+    ],
+    "input_tokens": 1580,
+    "output_tokens": 43,
+    "cost_usd": 0.0001795,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "count_places",
+          {
+            "kind": "pharmacy",
+            "only_24_7": true
+          }
+        ]
+      ],
+      "expected_facts": [
+        "19"
+      ]
+    }
+  },
+  {
+    "task": "T02",
+    "variant": "short",
+    "repeat": 2,
+    "diagnostic": null,
+    "log": "T02_short_2.jsonl",
+    "final": "В Ростове 19 круглосуточных аптек.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "count_places",
+        "requested_arguments": "{\"kind\":\"pharmacy\",\"only_24_7\":true}",
+        "ok": true,
+        "arguments": {
+          "kind": "pharmacy",
+          "only_24_7": true
+        },
+        "executed_arguments": "{\"kind\":\"pharmacy\",\"only_24_7\":true}",
+        "observation": {
+          "kind": "pharmacy",
+          "only_24_7": true,
+          "count": 19
+        }
+      }
+    ],
+    "input_tokens": 1580,
+    "output_tokens": 43,
+    "cost_usd": 0.0001795,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "count_places",
+          {
+            "kind": "pharmacy",
+            "only_24_7": true
+          }
+        ]
+      ],
+      "expected_facts": [
+        "19"
+      ]
+    }
+  },
+  {
+    "task": "T02",
+    "variant": "full",
+    "repeat": 2,
+    "diagnostic": null,
+    "log": "T02_full_2.jsonl",
+    "final": "В Ростове 19 круглосуточных аптек.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "count_places",
+        "requested_arguments": "{\"kind\":\"pharmacy\",\"only_24_7\":true}",
+        "ok": true,
+        "arguments": {
+          "kind": "pharmacy",
+          "only_24_7": true
+        },
+        "executed_arguments": "{\"kind\":\"pharmacy\",\"only_24_7\":true}",
+        "observation": {
+          "kind": "pharmacy",
+          "only_24_7": true,
+          "count": 19
+        }
+      }
+    ],
+    "input_tokens": 2714,
+    "output_tokens": 43,
+    "cost_usd": 4.918e-05,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "count_places",
+          {
+            "kind": "pharmacy",
+            "only_24_7": true
+          }
+        ]
+      ],
+      "expected_facts": [
+        "19"
+      ]
+    }
+  },
+  {
+    "task": "T02",
+    "variant": "full",
+    "repeat": 3,
+    "diagnostic": null,
+    "log": "T02_full_3.jsonl",
+    "final": "В Ростове 19 круглосуточных аптек.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "count_places",
+        "requested_arguments": "{\"kind\":\"pharmacy\",\"only_24_7\":true}",
+        "ok": true,
+        "arguments": {
+          "kind": "pharmacy",
+          "only_24_7": true
+        },
+        "executed_arguments": "{\"kind\":\"pharmacy\",\"only_24_7\":true}",
+        "observation": {
+          "kind": "pharmacy",
+          "only_24_7": true,
+          "count": 19
+        }
+      }
+    ],
+    "input_tokens": 2714,
+    "output_tokens": 43,
+    "cost_usd": 4.918e-05,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "count_places",
+          {
+            "kind": "pharmacy",
+            "only_24_7": true
+          }
+        ]
+      ],
+      "expected_facts": [
+        "19"
+      ]
+    }
+  },
+  {
+    "task": "T02",
+    "variant": "short",
+    "repeat": 3,
+    "diagnostic": null,
+    "log": "T02_short_3.jsonl",
+    "final": "В Ростове 19 круглосуточных аптек.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "count_places",
+        "requested_arguments": "{\"kind\":\"pharmacy\",\"only_24_7\":true}",
+        "ok": true,
+        "arguments": {
+          "kind": "pharmacy",
+          "only_24_7": true
+        },
+        "executed_arguments": "{\"kind\":\"pharmacy\",\"only_24_7\":true}",
+        "observation": {
+          "kind": "pharmacy",
+          "only_24_7": true,
+          "count": 19
+        }
+      }
+    ],
+    "input_tokens": 1580,
+    "output_tokens": 43,
+    "cost_usd": 0.0001795,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "count_places",
+          {
+            "kind": "pharmacy",
+            "only_24_7": true
+          }
+        ]
+      ],
+      "expected_facts": [
+        "19"
+      ]
+    }
+  },
+  {
+    "task": "T03",
+    "variant": "short",
+    "repeat": 1,
+    "diagnostic": null,
+    "log": "T03_short_1.jsonl",
+    "final": "В базе нашлись 4 кафе на Пушкинской улице:\n\n- Антикафе «Тень» — Пушкинская, 225\n- Coffee Man — Пушкинская, 33\n- «Гурман Булкинъ» — Пушкинская, 105/79\n- Бар здоровых привычек — Пушкинская, 158\n\nПяти кафе в результатах нет.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "find_places",
+        "requested_arguments": "{\"kind\":\"cafe\",\"street\":\"Пушкинская улица\",\"brand\":null,\"limit\":5}",
+        "ok": true,
+        "arguments": {
+          "kind": "cafe",
+          "street": "Пушкинская улица",
+          "brand": null,
+          "limit": 5
+        },
+        "executed_arguments": "{\"kind\":\"cafe\",\"street\":\"Пушкинская улица\",\"brand\":null,\"limit\":5}",
+        "observation": {
+          "places": [
+            {
+              "id": 731,
+              "name": "Антикафе \"Тень\"",
+              "street": "Пушкинская улица",
+              "housenumber": "225",
+              "opening_hours": null,
+              "brand": null
+            },
+            {
+              "id": 811,
+              "name": "Coffee Man",
+              "street": "Пушкинская улица",
+              "housenumber": "33",
+              "opening_hours": "09:00-23:00",
+              "brand": "ООО \"Кофеман\""
+            },
+            {
+              "id": 1452,
+              "name": "Гурман Булкинъ",
+              "street": "Пушкинская улица",
+              "housenumber": "105/79",
+              "opening_hours": "Mo-Su 09:00-22:00",
+              "brand": "Гурман Булкинъ"
+            },
+            {
+              "id": 1533,
+              "name": "Бар здоровых привычек",
+              "street": "Пушкинская улица",
+              "housenumber": "158",
+              "opening_hours": "Mo-Su 09:00-23:00",
+              "brand": null
+            }
+          ],
+          "limit": 5,
+          "scope": "sample, not total count"
+        }
+      }
+    ],
+    "input_tokens": 1821,
+    "output_tokens": 127,
+    "cost_usd": 0.00027204999999999997,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "find_places",
+          {
+            "kind": "cafe",
+            "street": "Пушкин",
+            "brand": null,
+            "limit": 5
+          }
+        ]
+      ],
+      "expected_facts": [
+        "Антикафе \"Тень\"",
+        "Coffee Man",
+        "Гурман Булкинъ",
+        "Бар здоровых привычек"
+      ]
+    }
+  },
+  {
+    "task": "T03",
+    "variant": "full",
+    "repeat": 1,
+    "diagnostic": null,
+    "log": "T03_full_1.jsonl",
+    "final": "Нашлось четыре кафе на Пушкинской улице:\n\n- Антикафе «Тень» — д. 225\n- Coffee Man — д. 33\n- «Гурман Булкинъ» — д. 105/79\n- Бар здоровых привычек — д. 158\n\nВ базе нашлось только четыре, хотя запрошено пять.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "find_places",
+        "requested_arguments": "{\"kind\":\"cafe\",\"street\":\"Пушкин\",\"brand\":null,\"limit\":5}",
+        "ok": true,
+        "arguments": {
+          "kind": "cafe",
+          "street": "Пушкин",
+          "brand": null,
+          "limit": 5
+        },
+        "executed_arguments": "{\"kind\":\"cafe\",\"street\":\"Пушкин\",\"brand\":null,\"limit\":5}",
+        "observation": {
+          "places": [
+            {
+              "id": 731,
+              "name": "Антикафе \"Тень\"",
+              "street": "Пушкинская улица",
+              "housenumber": "225",
+              "opening_hours": null,
+              "brand": null
+            },
+            {
+              "id": 811,
+              "name": "Coffee Man",
+              "street": "Пушкинская улица",
+              "housenumber": "33",
+              "opening_hours": "09:00-23:00",
+              "brand": "ООО \"Кофеман\""
+            },
+            {
+              "id": 1452,
+              "name": "Гурман Булкинъ",
+              "street": "Пушкинская улица",
+              "housenumber": "105/79",
+              "opening_hours": "Mo-Su 09:00-22:00",
+              "brand": "Гурман Булкинъ"
+            },
+            {
+              "id": 1533,
+              "name": "Бар здоровых привычек",
+              "street": "Пушкинская улица",
+              "housenumber": "158",
+              "opening_hours": "Mo-Su 09:00-23:00",
+              "brand": null
+            }
+          ],
+          "limit": 5,
+          "scope": "sample, not total count"
+        }
+      }
+    ],
+    "input_tokens": 2952,
+    "output_tokens": 114,
+    "cost_usd": 0.00012317,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "find_places",
+          {
+            "kind": "cafe",
+            "street": "Пушкин",
+            "brand": null,
+            "limit": 5
+          }
+        ]
+      ],
+      "expected_facts": [
+        "Антикафе \"Тень\"",
+        "Coffee Man",
+        "Гурман Булкинъ",
+        "Бар здоровых привычек"
+      ]
+    }
+  },
+  {
+    "task": "T03",
+    "variant": "full",
+    "repeat": 2,
+    "diagnostic": null,
+    "log": "T03_full_2.jsonl",
+    "final": "В базе нашлись 4 кафе на Пушкинской улице:\n\n- Антикафе «Тень» — Пушкинская, 225\n- Coffee Man — Пушкинская, 33\n- «Гурман Булкинъ» — Пушкинская, 105/79\n- Бар здоровых привычек — Пушкинская, 158\n\nПятого кафе в выданном списке нет.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "find_places",
+        "requested_arguments": "{\"kind\":\"cafe\",\"street\":\"Пушкин\",\"brand\":null,\"limit\":5}",
+        "ok": true,
+        "arguments": {
+          "kind": "cafe",
+          "street": "Пушкин",
+          "brand": null,
+          "limit": 5
+        },
+        "executed_arguments": "{\"kind\":\"cafe\",\"street\":\"Пушкин\",\"brand\":null,\"limit\":5}",
+        "observation": {
+          "places": [
+            {
+              "id": 731,
+              "name": "Антикафе \"Тень\"",
+              "street": "Пушкинская улица",
+              "housenumber": "225",
+              "opening_hours": null,
+              "brand": null
+            },
+            {
+              "id": 811,
+              "name": "Coffee Man",
+              "street": "Пушкинская улица",
+              "housenumber": "33",
+              "opening_hours": "09:00-23:00",
+              "brand": "ООО \"Кофеман\""
+            },
+            {
+              "id": 1452,
+              "name": "Гурман Булкинъ",
+              "street": "Пушкинская улица",
+              "housenumber": "105/79",
+              "opening_hours": "Mo-Su 09:00-22:00",
+              "brand": "Гурман Булкинъ"
+            },
+            {
+              "id": 1533,
+              "name": "Бар здоровых привычек",
+              "street": "Пушкинская улица",
+              "housenumber": "158",
+              "opening_hours": "Mo-Su 09:00-23:00",
+              "brand": null
+            }
+          ],
+          "limit": 5,
+          "scope": "sample, not total count"
+        }
+      }
+    ],
+    "input_tokens": 2952,
+    "output_tokens": 128,
+    "cost_usd": 9.406e-05,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "find_places",
+          {
+            "kind": "cafe",
+            "street": "Пушкин",
+            "brand": null,
+            "limit": 5
+          }
+        ]
+      ],
+      "expected_facts": [
+        "Антикафе \"Тень\"",
+        "Coffee Man",
+        "Гурман Булкинъ",
+        "Бар здоровых привычек"
+      ]
+    }
+  },
+  {
+    "task": "T03",
+    "variant": "short",
+    "repeat": 2,
+    "diagnostic": null,
+    "log": "T03_short_2.jsonl",
+    "final": "Нашёл 4 кафе на Пушкинской улице:\n\n- Антикафе «Тень» — д. 225\n- Coffee Man — д. 33\n- Гурман Булкинъ — д. 105/79\n- Бар здоровых привычек — д. 158\n\nПятое кафе в результатах не найдено.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "find_places",
+        "requested_arguments": "{\"kind\":\"cafe\",\"street\":\"Пушкинская\",\"brand\":null,\"limit\":5}",
+        "ok": true,
+        "arguments": {
+          "kind": "cafe",
+          "street": "Пушкинская",
+          "brand": null,
+          "limit": 5
+        },
+        "executed_arguments": "{\"kind\":\"cafe\",\"street\":\"Пушкинская\",\"brand\":null,\"limit\":5}",
+        "observation": {
+          "places": [
+            {
+              "id": 731,
+              "name": "Антикафе \"Тень\"",
+              "street": "Пушкинская улица",
+              "housenumber": "225",
+              "opening_hours": null,
+              "brand": null
+            },
+            {
+              "id": 811,
+              "name": "Coffee Man",
+              "street": "Пушкинская улица",
+              "housenumber": "33",
+              "opening_hours": "09:00-23:00",
+              "brand": "ООО \"Кофеман\""
+            },
+            {
+              "id": 1452,
+              "name": "Гурман Булкинъ",
+              "street": "Пушкинская улица",
+              "housenumber": "105/79",
+              "opening_hours": "Mo-Su 09:00-22:00",
+              "brand": "Гурман Булкинъ"
+            },
+            {
+              "id": 1533,
+              "name": "Бар здоровых привычек",
+              "street": "Пушкинская улица",
+              "housenumber": "158",
+              "opening_hours": "Mo-Su 09:00-23:00",
+              "brand": null
+            }
+          ],
+          "limit": 5,
+          "scope": "sample, not total count"
+        }
+      }
+    ],
+    "input_tokens": 1819,
+    "output_tokens": 112,
+    "cost_usd": 0.0002643,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "find_places",
+          {
+            "kind": "cafe",
+            "street": "Пушкин",
+            "brand": null,
+            "limit": 5
+          }
+        ]
+      ],
+      "expected_facts": [
+        "Антикафе \"Тень\"",
+        "Coffee Man",
+        "Гурман Булкинъ",
+        "Бар здоровых привычек"
+      ]
+    }
+  },
+  {
+    "task": "T03",
+    "variant": "short",
+    "repeat": 3,
+    "diagnostic": null,
+    "log": "T03_short_3.jsonl",
+    "final": "Нашлось 4 кафе на Пушкинской улице:\n\n- «Антикафе “Тень”» — дом 225\n- Coffee Man — дом 33\n- «Гурман Булкинъ» — дом 105/79\n- «Бар здоровых привычек» — дом 158\n\nПятого кафе в полученной выборке нет.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "find_places",
+        "requested_arguments": "{\"kind\":\"cafe\",\"street\":\"Пушкинская улица\",\"brand\":null,\"limit\":5}",
+        "ok": true,
+        "arguments": {
+          "kind": "cafe",
+          "street": "Пушкинская улица",
+          "brand": null,
+          "limit": 5
+        },
+        "executed_arguments": "{\"kind\":\"cafe\",\"street\":\"Пушкинская улица\",\"brand\":null,\"limit\":5}",
+        "observation": {
+          "places": [
+            {
+              "id": 731,
+              "name": "Антикафе \"Тень\"",
+              "street": "Пушкинская улица",
+              "housenumber": "225",
+              "opening_hours": null,
+              "brand": null
+            },
+            {
+              "id": 811,
+              "name": "Coffee Man",
+              "street": "Пушкинская улица",
+              "housenumber": "33",
+              "opening_hours": "09:00-23:00",
+              "brand": "ООО \"Кофеман\""
+            },
+            {
+              "id": 1452,
+              "name": "Гурман Булкинъ",
+              "street": "Пушкинская улица",
+              "housenumber": "105/79",
+              "opening_hours": "Mo-Su 09:00-22:00",
+              "brand": "Гурман Булкинъ"
+            },
+            {
+              "id": 1533,
+              "name": "Бар здоровых привычек",
+              "street": "Пушкинская улица",
+              "housenumber": "158",
+              "opening_hours": "Mo-Su 09:00-23:00",
+              "brand": null
+            }
+          ],
+          "limit": 5,
+          "scope": "sample, not total count"
+        }
+      }
+    ],
+    "input_tokens": 1821,
+    "output_tokens": 116,
+    "cost_usd": 0.00014488,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "find_places",
+          {
+            "kind": "cafe",
+            "street": "Пушкин",
+            "brand": null,
+            "limit": 5
+          }
+        ]
+      ],
+      "expected_facts": [
+        "Антикафе \"Тень\"",
+        "Coffee Man",
+        "Гурман Булкинъ",
+        "Бар здоровых привычек"
+      ]
+    }
+  },
+  {
+    "task": "T03",
+    "variant": "full",
+    "repeat": 3,
+    "diagnostic": null,
+    "log": "T03_full_3.jsonl",
+    "final": "Нашёл 4 кафе на Пушкинской улице:\n\n- Антикафе «Тень» — Пушкинская, 225\n- Coffee Man — Пушкинская, 33\n- «Гурман Булкинъ» — Пушкинская, 105/79\n- Бар здоровых привычек — Пушкинская, 158\n\nВ базе найдено меньше пяти.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "find_places",
+        "requested_arguments": "{\"kind\":\"cafe\",\"street\":\"Пушкин\",\"brand\":null,\"limit\":5}",
+        "ok": true,
+        "arguments": {
+          "kind": "cafe",
+          "street": "Пушкин",
+          "brand": null,
+          "limit": 5
+        },
+        "executed_arguments": "{\"kind\":\"cafe\",\"street\":\"Пушкин\",\"brand\":null,\"limit\":5}",
+        "observation": {
+          "places": [
+            {
+              "id": 731,
+              "name": "Антикафе \"Тень\"",
+              "street": "Пушкинская улица",
+              "housenumber": "225",
+              "opening_hours": null,
+              "brand": null
+            },
+            {
+              "id": 811,
+              "name": "Coffee Man",
+              "street": "Пушкинская улица",
+              "housenumber": "33",
+              "opening_hours": "09:00-23:00",
+              "brand": "ООО \"Кофеман\""
+            },
+            {
+              "id": 1452,
+              "name": "Гурман Булкинъ",
+              "street": "Пушкинская улица",
+              "housenumber": "105/79",
+              "opening_hours": "Mo-Su 09:00-22:00",
+              "brand": "Гурман Булкинъ"
+            },
+            {
+              "id": 1533,
+              "name": "Бар здоровых привычек",
+              "street": "Пушкинская улица",
+              "housenumber": "158",
+              "opening_hours": "Mo-Su 09:00-23:00",
+              "brand": null
+            }
+          ],
+          "limit": 5,
+          "scope": "sample, not total count"
+        }
+      }
+    ],
+    "input_tokens": 2952,
+    "output_tokens": 121,
+    "cost_usd": 9.056e-05,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "find_places",
+          {
+            "kind": "cafe",
+            "street": "Пушкин",
+            "brand": null,
+            "limit": 5
+          }
+        ]
+      ],
+      "expected_facts": [
+        "Антикафе \"Тень\"",
+        "Coffee Man",
+        "Гурман Булкинъ",
+        "Бар здоровых привычек"
+      ]
+    }
+  },
+  {
+    "task": "T04",
+    "variant": "full",
+    "repeat": 1,
+    "diagnostic": null,
+    "log": "T04_full_1.jsonl",
+    "final": "В базе нашлось пять пунктов выдачи Ozon, но у них не указаны адреса:\n\n- ID 6175 — ежедневно 09:00–21:00\n- ID 6395 — ежедневно 09:00–21:00\n- ID 6397 — ежедневно 09:00–21:00\n- ID 6404 — ежедневно 09:00–21:00\n- ID 6407 — ежедневно 10:00–21:00",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "find_places",
+        "requested_arguments": "{\"kind\":\"outpost\",\"street\":null,\"brand\":\"Ozon\",\"limit\":5}",
+        "ok": true,
+        "arguments": {
+          "kind": "outpost",
+          "street": null,
+          "brand": "Ozon",
+          "limit": 5
+        },
+        "executed_arguments": "{\"kind\":\"outpost\",\"street\":null,\"brand\":\"Ozon\",\"limit\":5}",
+        "observation": {
+          "places": [
+            {
+              "id": 6175,
+              "name": "Ozon",
+              "street": null,
+              "housenumber": null,
+              "opening_hours": "Mo-Su 09:00-21:00",
+              "brand": "Ozon"
+            },
+            {
+              "id": 6395,
+              "name": "Ozon",
+              "street": null,
+              "housenumber": null,
+              "opening_hours": "Mo-Su 09:00-21:00",
+              "brand": "Ozon"
+            },
+            {
+              "id": 6397,
+              "name": "Ozon",
+              "street": null,
+              "housenumber": null,
+              "opening_hours": "Mo-Su 09:00-21:00",
+              "brand": "Ozon"
+            },
+            {
+              "id": 6404,
+              "name": "Ozon",
+              "street": null,
+              "housenumber": null,
+              "opening_hours": "Mo-Su 09:00-21:00",
+              "brand": "Ozon"
+            },
+            {
+              "id": 6407,
+              "name": "Ozon",
+              "street": null,
+              "housenumber": null,
+              "opening_hours": "Mo-Su 10:00-21:00",
+              "brand": "Ozon"
+            }
+          ],
+          "limit": 5,
+          "scope": "sample, not total count"
+        }
+      }
+    ],
+    "input_tokens": 2978,
+    "output_tokens": 136,
+    "cost_usd": 0.000137075,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "find_places",
+          {
+            "kind": "outpost",
+            "street": null,
+            "brand": "Ozon",
+            "limit": 5
+          }
+        ]
+      ],
+      "expected_facts": [
+        "Ozon",
+        "Ozon",
+        "Ozon",
+        "Ozon",
+        "Ozon"
+      ]
+    }
+  },
+  {
+    "task": "T04",
+    "variant": "short",
+    "repeat": 1,
+    "diagnostic": null,
+    "log": "T04_short_1.jsonl",
+    "final": "Вот пять пунктов выдачи Ozon в Ростове. В базе для них не указаны улицы и номера домов.\n\n1. Ozon — ежедневно 09:00–21:00 (ID 6175)\n2. Ozon — ежедневно 09:00–21:00 (ID 6395)\n3. Ozon — ежедневно 09:00–21:00 (ID 6397)\n4. Ozon — ежедневно 09:00–21:00 (ID 6404)\n5. Ozon — ежедневно 10:00–21:00 (ID 6407)",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "find_places",
+        "requested_arguments": "{\"kind\":\"outpost\",\"street\":null,\"brand\":\"Ozon\",\"limit\":5}",
+        "ok": true,
+        "arguments": {
+          "kind": "outpost",
+          "street": null,
+          "brand": "Ozon",
+          "limit": 5
+        },
+        "executed_arguments": "{\"kind\":\"outpost\",\"street\":null,\"brand\":\"Ozon\",\"limit\":5}",
+        "observation": {
+          "places": [
+            {
+              "id": 6175,
+              "name": "Ozon",
+              "street": null,
+              "housenumber": null,
+              "opening_hours": "Mo-Su 09:00-21:00",
+              "brand": "Ozon"
+            },
+            {
+              "id": 6395,
+              "name": "Ozon",
+              "street": null,
+              "housenumber": null,
+              "opening_hours": "Mo-Su 09:00-21:00",
+              "brand": "Ozon"
+            },
+            {
+              "id": 6397,
+              "name": "Ozon",
+              "street": null,
+              "housenumber": null,
+              "opening_hours": "Mo-Su 09:00-21:00",
+              "brand": "Ozon"
+            },
+            {
+              "id": 6404,
+              "name": "Ozon",
+              "street": null,
+              "housenumber": null,
+              "opening_hours": "Mo-Su 09:00-21:00",
+              "brand": "Ozon"
+            },
+            {
+              "id": 6407,
+              "name": "Ozon",
+              "street": null,
+              "housenumber": null,
+              "opening_hours": "Mo-Su 10:00-21:00",
+              "brand": "Ozon"
+            }
+          ],
+          "limit": 5,
+          "scope": "sample, not total count"
+        }
+      }
+    ],
+    "input_tokens": 1844,
+    "output_tokens": 161,
+    "cost_usd": 0.00029184999999999997,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "find_places",
+          {
+            "kind": "outpost",
+            "street": null,
+            "brand": "Ozon",
+            "limit": 5
+          }
+        ]
+      ],
+      "expected_facts": [
+        "Ozon",
+        "Ozon",
+        "Ozon",
+        "Ozon",
+        "Ozon"
+      ]
+    }
+  },
+  {
+    "task": "T04",
+    "variant": "short",
+    "repeat": 2,
+    "diagnostic": null,
+    "log": "T04_short_2.jsonl",
+    "final": "Пять пунктов выдачи Ozon в Ростове:\n\n- № 6175 — ежедневно с 09:00 до 21:00\n- № 6395 — ежедневно с 09:00 до 21:00\n- № 6397 — ежедневно с 09:00 до 21:00\n- № 6404 — ежедневно с 09:00 до 21:00\n- № 6407 — ежедневно с 10:00 до 21:00\n\nАдреса в базе не указаны.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "find_places",
+        "requested_arguments": "{\"kind\":\"outpost\",\"street\":null,\"brand\":\"Ozon\",\"limit\":5}",
+        "ok": true,
+        "arguments": {
+          "kind": "outpost",
+          "street": null,
+          "brand": "Ozon",
+          "limit": 5
+        },
+        "executed_arguments": "{\"kind\":\"outpost\",\"street\":null,\"brand\":\"Ozon\",\"limit\":5}",
+        "observation": {
+          "places": [
+            {
+              "id": 6175,
+              "name": "Ozon",
+              "street": null,
+              "housenumber": null,
+              "opening_hours": "Mo-Su 09:00-21:00",
+              "brand": "Ozon"
+            },
+            {
+              "id": 6395,
+              "name": "Ozon",
+              "street": null,
+              "housenumber": null,
+              "opening_hours": "Mo-Su 09:00-21:00",
+              "brand": "Ozon"
+            },
+            {
+              "id": 6397,
+              "name": "Ozon",
+              "street": null,
+              "housenumber": null,
+              "opening_hours": "Mo-Su 09:00-21:00",
+              "brand": "Ozon"
+            },
+            {
+              "id": 6404,
+              "name": "Ozon",
+              "street": null,
+              "housenumber": null,
+              "opening_hours": "Mo-Su 09:00-21:00",
+              "brand": "Ozon"
+            },
+            {
+              "id": 6407,
+              "name": "Ozon",
+              "street": null,
+              "housenumber": null,
+              "opening_hours": "Mo-Su 10:00-21:00",
+              "brand": "Ozon"
+            }
+          ],
+          "limit": 5,
+          "scope": "sample, not total count"
+        }
+      }
+    ],
+    "input_tokens": 1844,
+    "output_tokens": 147,
+    "cost_usd": 0.00016088,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "find_places",
+          {
+            "kind": "outpost",
+            "street": null,
+            "brand": "Ozon",
+            "limit": 5
+          }
+        ]
+      ],
+      "expected_facts": [
+        "Ozon",
+        "Ozon",
+        "Ozon",
+        "Ozon",
+        "Ozon"
+      ]
+    }
+  },
+  {
+    "task": "T04",
+    "variant": "full",
+    "repeat": 2,
+    "diagnostic": null,
+    "log": "T04_full_2.jsonl",
+    "final": "В базе нашлось пять пунктов выдачи Ozon, но адреса для них не указаны:\n\n- Ozon — ежедневно, 09:00–21:00\n- Ozon — ежедневно, 09:00–21:00\n- Ozon — ежедневно, 09:00–21:00\n- Ozon — ежедневно, 09:00–21:00\n- Ozon — ежедневно, 10:00–21:00",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "find_places",
+        "requested_arguments": "{\"kind\":\"outpost\",\"street\":null,\"brand\":\"Ozon\",\"limit\":5}",
+        "ok": true,
+        "arguments": {
+          "kind": "outpost",
+          "street": null,
+          "brand": "Ozon",
+          "limit": 5
+        },
+        "executed_arguments": "{\"kind\":\"outpost\",\"street\":null,\"brand\":\"Ozon\",\"limit\":5}",
+        "observation": {
+          "places": [
+            {
+              "id": 6175,
+              "name": "Ozon",
+              "street": null,
+              "housenumber": null,
+              "opening_hours": "Mo-Su 09:00-21:00",
+              "brand": "Ozon"
+            },
+            {
+              "id": 6395,
+              "name": "Ozon",
+              "street": null,
+              "housenumber": null,
+              "opening_hours": "Mo-Su 09:00-21:00",
+              "brand": "Ozon"
+            },
+            {
+              "id": 6397,
+              "name": "Ozon",
+              "street": null,
+              "housenumber": null,
+              "opening_hours": "Mo-Su 09:00-21:00",
+              "brand": "Ozon"
+            },
+            {
+              "id": 6404,
+              "name": "Ozon",
+              "street": null,
+              "housenumber": null,
+              "opening_hours": "Mo-Su 09:00-21:00",
+              "brand": "Ozon"
+            },
+            {
+              "id": 6407,
+              "name": "Ozon",
+              "street": null,
+              "housenumber": null,
+              "opening_hours": "Mo-Su 10:00-21:00",
+              "brand": "Ozon"
+            }
+          ],
+          "limit": 5,
+          "scope": "sample, not total count"
+        }
+      }
+    ],
+    "input_tokens": 2978,
+    "output_tokens": 131,
+    "cost_usd": 9.582e-05,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "find_places",
+          {
+            "kind": "outpost",
+            "street": null,
+            "brand": "Ozon",
+            "limit": 5
+          }
+        ]
+      ],
+      "expected_facts": [
+        "Ozon",
+        "Ozon",
+        "Ozon",
+        "Ozon",
+        "Ozon"
+      ]
+    }
+  },
+  {
+    "task": "T04",
+    "variant": "full",
+    "repeat": 3,
+    "diagnostic": null,
+    "log": "T04_full_3.jsonl",
+    "final": "В базе нашлись пять пунктов выдачи Ozon в Ростове:\n\n- Ozon — ежедневно, 09:00–21:00\n- Ozon — ежедневно, 09:00–21:00\n- Ozon — ежедневно, 09:00–21:00\n- Ozon — ежедневно, 09:00–21:00\n- Ozon — ежедневно, 10:00–21:00\n\nАдреса в базе для этих пунктов не указаны.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "find_places",
+        "requested_arguments": "{\"kind\":\"outpost\",\"street\":null,\"brand\":\"Ozon\",\"limit\":5}",
+        "ok": true,
+        "arguments": {
+          "kind": "outpost",
+          "street": null,
+          "brand": "Ozon",
+          "limit": 5
+        },
+        "executed_arguments": "{\"kind\":\"outpost\",\"street\":null,\"brand\":\"Ozon\",\"limit\":5}",
+        "observation": {
+          "places": [
+            {
+              "id": 6175,
+              "name": "Ozon",
+              "street": null,
+              "housenumber": null,
+              "opening_hours": "Mo-Su 09:00-21:00",
+              "brand": "Ozon"
+            },
+            {
+              "id": 6395,
+              "name": "Ozon",
+              "street": null,
+              "housenumber": null,
+              "opening_hours": "Mo-Su 09:00-21:00",
+              "brand": "Ozon"
+            },
+            {
+              "id": 6397,
+              "name": "Ozon",
+              "street": null,
+              "housenumber": null,
+              "opening_hours": "Mo-Su 09:00-21:00",
+              "brand": "Ozon"
+            },
+            {
+              "id": 6404,
+              "name": "Ozon",
+              "street": null,
+              "housenumber": null,
+              "opening_hours": "Mo-Su 09:00-21:00",
+              "brand": "Ozon"
+            },
+            {
+              "id": 6407,
+              "name": "Ozon",
+              "street": null,
+              "housenumber": null,
+              "opening_hours": "Mo-Su 10:00-21:00",
+              "brand": "Ozon"
+            }
+          ],
+          "limit": 5,
+          "scope": "sample, not total count"
+        }
+      }
+    ],
+    "input_tokens": 2978,
+    "output_tokens": 139,
+    "cost_usd": 9.982e-05,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "find_places",
+          {
+            "kind": "outpost",
+            "street": null,
+            "brand": "Ozon",
+            "limit": 5
+          }
+        ]
+      ],
+      "expected_facts": [
+        "Ozon",
+        "Ozon",
+        "Ozon",
+        "Ozon",
+        "Ozon"
+      ]
+    }
+  },
+  {
+    "task": "T04",
+    "variant": "short",
+    "repeat": 3,
+    "diagnostic": null,
+    "log": "T04_short_3.jsonl",
+    "final": "Вот пять пунктов выдачи Ozon в Ростове из базы:\n\n- ID 6175 — ежедневно 09:00–21:00\n- ID 6395 — ежедневно 09:00–21:00\n- ID 6397 — ежедневно 09:00–21:00\n- ID 6404 — ежедневно 09:00–21:00\n- ID 6407 — ежедневно 10:00–21:00\n\nАдреса в найденных данных не указаны.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "find_places",
+        "requested_arguments": "{\"kind\":\"outpost\",\"street\":null,\"brand\":\"Ozon\",\"limit\":5}",
+        "ok": true,
+        "arguments": {
+          "kind": "outpost",
+          "street": null,
+          "brand": "Ozon",
+          "limit": 5
+        },
+        "executed_arguments": "{\"kind\":\"outpost\",\"street\":null,\"brand\":\"Ozon\",\"limit\":5}",
+        "observation": {
+          "places": [
+            {
+              "id": 6175,
+              "name": "Ozon",
+              "street": null,
+              "housenumber": null,
+              "opening_hours": "Mo-Su 09:00-21:00",
+              "brand": "Ozon"
+            },
+            {
+              "id": 6395,
+              "name": "Ozon",
+              "street": null,
+              "housenumber": null,
+              "opening_hours": "Mo-Su 09:00-21:00",
+              "brand": "Ozon"
+            },
+            {
+              "id": 6397,
+              "name": "Ozon",
+              "street": null,
+              "housenumber": null,
+              "opening_hours": "Mo-Su 09:00-21:00",
+              "brand": "Ozon"
+            },
+            {
+              "id": 6404,
+              "name": "Ozon",
+              "street": null,
+              "housenumber": null,
+              "opening_hours": "Mo-Su 09:00-21:00",
+              "brand": "Ozon"
+            },
+            {
+              "id": 6407,
+              "name": "Ozon",
+              "street": null,
+              "housenumber": null,
+              "opening_hours": "Mo-Su 10:00-21:00",
+              "brand": "Ozon"
+            }
+          ],
+          "limit": 5,
+          "scope": "sample, not total count"
+        }
+      }
+    ],
+    "input_tokens": 1844,
+    "output_tokens": 141,
+    "cost_usd": 0.00015788,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "find_places",
+          {
+            "kind": "outpost",
+            "street": null,
+            "brand": "Ozon",
+            "limit": 5
+          }
+        ]
+      ],
+      "expected_facts": [
+        "Ozon",
+        "Ozon",
+        "Ozon",
+        "Ozon",
+        "Ozon"
+      ]
+    }
+  },
+  {
+    "task": "T05",
+    "variant": "short",
+    "repeat": 1,
+    "diagnostic": null,
+    "log": "T05_short_1.jsonl",
+    "final": "Ближайшая аптека находится примерно в 160 метрах по прямой.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "nearest_place",
+        "requested_arguments": "{\"lat\":47.2357,\"lon\":39.7015,\"kind\":\"pharmacy\"}",
+        "ok": true,
+        "arguments": {
+          "lat": 47.2357,
+          "lon": 39.7015,
+          "kind": "pharmacy"
+        },
+        "executed_arguments": "{\"lat\":47.2357,\"lon\":39.7015,\"kind\":\"pharmacy\"}",
+        "observation": {
+          "found": true,
+          "id": 663,
+          "name": null,
+          "lat": 47.2342641,
+          "lon": 39.701752,
+          "distance_m": 160,
+          "distance_unit": "m",
+          "distance_method": "straight_line"
+        }
+      }
+    ],
+    "input_tokens": 1657,
+    "output_tokens": 56,
+    "cost_usd": 0.0001937,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "nearest_place",
+          {
+            "lat": 47.2357,
+            "lon": 39.7015,
+            "kind": "pharmacy"
+          }
+        ]
+      ],
+      "expected_facts": [
+        "160"
+      ]
+    }
+  },
+  {
+    "task": "T05",
+    "variant": "full",
+    "repeat": 1,
+    "diagnostic": null,
+    "log": "T05_full_1.jsonl",
+    "final": "Ближайшая аптека — примерно в **160 м** по прямой. Название в базе не указано.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "nearest_place",
+        "requested_arguments": "{\"lat\":47.2357,\"lon\":39.7015,\"kind\":\"pharmacy\"}",
+        "ok": true,
+        "arguments": {
+          "lat": 47.2357,
+          "lon": 39.7015,
+          "kind": "pharmacy"
+        },
+        "executed_arguments": "{\"lat\":47.2357,\"lon\":39.7015,\"kind\":\"pharmacy\"}",
+        "observation": {
+          "found": true,
+          "id": 663,
+          "name": null,
+          "lat": 47.2342641,
+          "lon": 39.701752,
+          "distance_m": 160,
+          "distance_unit": "m",
+          "distance_method": "straight_line"
+        }
+      }
+    ],
+    "input_tokens": 2791,
+    "output_tokens": 64,
+    "cost_usd": 7.609000000000001e-05,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "nearest_place",
+          {
+            "lat": 47.2357,
+            "lon": 39.7015,
+            "kind": "pharmacy"
+          }
+        ]
+      ],
+      "expected_facts": [
+        "160"
+      ]
+    }
+  },
+  {
+    "task": "T05",
+    "variant": "full",
+    "repeat": 2,
+    "diagnostic": null,
+    "log": "T05_full_2.jsonl",
+    "final": "Ближайшая аптека — примерно в **160 м** по прямой.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "nearest_place",
+        "requested_arguments": "{\"lat\":47.2357,\"lon\":39.7015,\"kind\":\"pharmacy\"}",
+        "ok": true,
+        "arguments": {
+          "lat": 47.2357,
+          "lon": 39.7015,
+          "kind": "pharmacy"
+        },
+        "executed_arguments": "{\"lat\":47.2357,\"lon\":39.7015,\"kind\":\"pharmacy\"}",
+        "observation": {
+          "found": true,
+          "id": 663,
+          "name": null,
+          "lat": 47.2342641,
+          "lon": 39.701752,
+          "distance_m": 160,
+          "distance_unit": "m",
+          "distance_method": "straight_line"
+        }
+      }
+    ],
+    "input_tokens": 2791,
+    "output_tokens": 56,
+    "cost_usd": 5.645e-05,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "nearest_place",
+          {
+            "lat": 47.2357,
+            "lon": 39.7015,
+            "kind": "pharmacy"
+          }
+        ]
+      ],
+      "expected_facts": [
+        "160"
+      ]
+    }
+  },
+  {
+    "task": "T05",
+    "variant": "short",
+    "repeat": 2,
+    "diagnostic": null,
+    "log": "T05_short_2.jsonl",
+    "final": "Ближайшая аптека находится в 160 метрах по прямой.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "nearest_place",
+        "requested_arguments": "{\"lat\":47.2357,\"lon\":39.7015,\"kind\":\"pharmacy\"}",
+        "ok": true,
+        "arguments": {
+          "lat": 47.2357,
+          "lon": 39.7015,
+          "kind": "pharmacy"
+        },
+        "executed_arguments": "{\"lat\":47.2357,\"lon\":39.7015,\"kind\":\"pharmacy\"}",
+        "observation": {
+          "found": true,
+          "id": 663,
+          "name": null,
+          "lat": 47.2342641,
+          "lon": 39.701752,
+          "distance_m": 160,
+          "distance_unit": "m",
+          "distance_method": "straight_line"
+        }
+      }
+    ],
+    "input_tokens": 1657,
+    "output_tokens": 55,
+    "cost_usd": 0.00019319999999999998,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "nearest_place",
+          {
+            "lat": 47.2357,
+            "lon": 39.7015,
+            "kind": "pharmacy"
+          }
+        ]
+      ],
+      "expected_facts": [
+        "160"
+      ]
+    }
+  },
+  {
+    "task": "T05",
+    "variant": "short",
+    "repeat": 3,
+    "diagnostic": null,
+    "log": "T05_short_3.jsonl",
+    "final": "Ближайшая аптека находится примерно в 160 метрах.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "nearest_place",
+        "requested_arguments": "{\"lat\":47.2357,\"lon\":39.7015,\"kind\":\"pharmacy\"}",
+        "ok": true,
+        "arguments": {
+          "lat": 47.2357,
+          "lon": 39.7015,
+          "kind": "pharmacy"
+        },
+        "executed_arguments": "{\"lat\":47.2357,\"lon\":39.7015,\"kind\":\"pharmacy\"}",
+        "observation": {
+          "found": true,
+          "id": 663,
+          "name": null,
+          "lat": 47.2342641,
+          "lon": 39.701752,
+          "distance_m": 160,
+          "distance_unit": "m",
+          "distance_method": "straight_line"
+        }
+      }
+    ],
+    "input_tokens": 1657,
+    "output_tokens": 53,
+    "cost_usd": 0.0001922,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "nearest_place",
+          {
+            "lat": 47.2357,
+            "lon": 39.7015,
+            "kind": "pharmacy"
+          }
+        ]
+      ],
+      "expected_facts": [
+        "160"
+      ]
+    }
+  },
+  {
+    "task": "T05",
+    "variant": "full",
+    "repeat": 3,
+    "diagnostic": null,
+    "log": "T05_full_3.jsonl",
+    "final": "Ближайшая аптека — в 160 метрах по прямой.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "nearest_place",
+        "requested_arguments": "{\"lat\":47.2357,\"lon\":39.7015,\"kind\":\"pharmacy\"}",
+        "ok": true,
+        "arguments": {
+          "lat": 47.2357,
+          "lon": 39.7015,
+          "kind": "pharmacy"
+        },
+        "executed_arguments": "{\"lat\":47.2357,\"lon\":39.7015,\"kind\":\"pharmacy\"}",
+        "observation": {
+          "found": true,
+          "id": 663,
+          "name": null,
+          "lat": 47.2342641,
+          "lon": 39.701752,
+          "distance_m": 160,
+          "distance_unit": "m",
+          "distance_method": "straight_line"
+        }
+      }
+    ],
+    "input_tokens": 2791,
+    "output_tokens": 55,
+    "cost_usd": 5.5950000000000005e-05,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "nearest_place",
+          {
+            "lat": 47.2357,
+            "lon": 39.7015,
+            "kind": "pharmacy"
+          }
+        ]
+      ],
+      "expected_facts": [
+        "160"
+      ]
+    }
+  },
+  {
+    "task": "T06",
+    "variant": "full",
+    "repeat": 1,
+    "diagnostic": null,
+    "log": "T06_full_1.jsonl",
+    "final": "Ближайший банк — Сбербанк, примерно в 134 метрах по прямой.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "nearest_place",
+        "requested_arguments": "{\"lat\":47.22,\"lon\":39.71,\"kind\":\"bank\"}",
+        "ok": true,
+        "arguments": {
+          "lat": 47.22,
+          "lon": 39.71,
+          "kind": "bank"
+        },
+        "executed_arguments": "{\"lat\":47.22,\"lon\":39.71,\"kind\":\"bank\"}",
+        "observation": {
+          "found": true,
+          "id": 754,
+          "name": "Сбербанк",
+          "lat": 47.2198666,
+          "lon": 39.7082359,
+          "distance_m": 134,
+          "distance_unit": "m",
+          "distance_method": "straight_line"
+        }
+      }
+    ],
+    "input_tokens": 2788,
+    "output_tokens": 55,
+    "cost_usd": 7.1445e-05,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "nearest_place",
+          {
+            "lat": 47.22,
+            "lon": 39.71,
+            "kind": "bank"
+          }
+        ]
+      ],
+      "expected_facts": [
+        "134"
+      ]
+    }
+  },
+  {
+    "task": "T06",
+    "variant": "short",
+    "repeat": 1,
+    "diagnostic": null,
+    "log": "T06_short_1.jsonl",
+    "final": "Ближайший банк — Сбербанк, примерно в 134 м по прямой.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "nearest_place",
+        "requested_arguments": "{\"lat\":47.22,\"lon\":39.71,\"kind\":\"bank\"}",
+        "ok": true,
+        "arguments": {
+          "lat": 47.22,
+          "lon": 39.71,
+          "kind": "bank"
+        },
+        "executed_arguments": "{\"lat\":47.22,\"lon\":39.71,\"kind\":\"bank\"}",
+        "observation": {
+          "found": true,
+          "id": 754,
+          "name": "Сбербанк",
+          "lat": 47.2198666,
+          "lon": 39.7082359,
+          "distance_m": 134,
+          "distance_unit": "m",
+          "distance_method": "straight_line"
+        }
+      }
+    ],
+    "input_tokens": 1654,
+    "output_tokens": 54,
+    "cost_usd": 0.00019240000000000001,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "nearest_place",
+          {
+            "lat": 47.22,
+            "lon": 39.71,
+            "kind": "bank"
+          }
+        ]
+      ],
+      "expected_facts": [
+        "134"
+      ]
+    }
+  },
+  {
+    "task": "T06",
+    "variant": "short",
+    "repeat": 2,
+    "diagnostic": null,
+    "log": "T06_short_2.jsonl",
+    "final": "Ближайший банк — Сбербанк. Расстояние по прямой: **134 м**.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "nearest_place",
+        "requested_arguments": "{\"lat\":47.22,\"lon\":39.71,\"kind\":\"bank\"}",
+        "ok": true,
+        "arguments": {
+          "lat": 47.22,
+          "lon": 39.71,
+          "kind": "bank"
+        },
+        "executed_arguments": "{\"lat\":47.22,\"lon\":39.71,\"kind\":\"bank\"}",
+        "observation": {
+          "found": true,
+          "id": 754,
+          "name": "Сбербанк",
+          "lat": 47.2198666,
+          "lon": 39.7082359,
+          "distance_m": 134,
+          "distance_unit": "m",
+          "distance_method": "straight_line"
+        }
+      }
+    ],
+    "input_tokens": 1654,
+    "output_tokens": 57,
+    "cost_usd": 0.0001939,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "nearest_place",
+          {
+            "lat": 47.22,
+            "lon": 39.71,
+            "kind": "bank"
+          }
+        ]
+      ],
+      "expected_facts": [
+        "134"
+      ]
+    }
+  },
+  {
+    "task": "T06",
+    "variant": "full",
+    "repeat": 2,
+    "diagnostic": null,
+    "log": "T06_full_2.jsonl",
+    "final": "Ближайший банк — Сбербанк, примерно в 134 м по прямой.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "nearest_place",
+        "requested_arguments": "{\"lat\":47.22,\"lon\":39.71,\"kind\":\"bank\"}",
+        "ok": true,
+        "arguments": {
+          "lat": 47.22,
+          "lon": 39.71,
+          "kind": "bank"
+        },
+        "executed_arguments": "{\"lat\":47.22,\"lon\":39.71,\"kind\":\"bank\"}",
+        "observation": {
+          "found": true,
+          "id": 754,
+          "name": "Сбербанк",
+          "lat": 47.2198666,
+          "lon": 39.7082359,
+          "distance_m": 134,
+          "distance_unit": "m",
+          "distance_method": "straight_line"
+        }
+      }
+    ],
+    "input_tokens": 2788,
+    "output_tokens": 54,
+    "cost_usd": 5.542e-05,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "nearest_place",
+          {
+            "lat": 47.22,
+            "lon": 39.71,
+            "kind": "bank"
+          }
+        ]
+      ],
+      "expected_facts": [
+        "134"
+      ]
+    }
+  },
+  {
+    "task": "T06",
+    "variant": "full",
+    "repeat": 3,
+    "diagnostic": null,
+    "log": "T06_full_3.jsonl",
+    "final": "Ближайший банк — Сбербанк, примерно в **134 м** по прямой.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "nearest_place",
+        "requested_arguments": "{\"lat\":47.22,\"lon\":39.71,\"kind\":\"bank\"}",
+        "ok": true,
+        "arguments": {
+          "lat": 47.22,
+          "lon": 39.71,
+          "kind": "bank"
+        },
+        "executed_arguments": "{\"lat\":47.22,\"lon\":39.71,\"kind\":\"bank\"}",
+        "observation": {
+          "found": true,
+          "id": 754,
+          "name": "Сбербанк",
+          "lat": 47.2198666,
+          "lon": 39.7082359,
+          "distance_m": 134,
+          "distance_unit": "m",
+          "distance_method": "straight_line"
+        }
+      }
+    ],
+    "input_tokens": 2788,
+    "output_tokens": 55,
+    "cost_usd": 5.592e-05,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "nearest_place",
+          {
+            "lat": 47.22,
+            "lon": 39.71,
+            "kind": "bank"
+          }
+        ]
+      ],
+      "expected_facts": [
+        "134"
+      ]
+    }
+  },
+  {
+    "task": "T06",
+    "variant": "short",
+    "repeat": 3,
+    "diagnostic": null,
+    "log": "T06_short_3.jsonl",
+    "final": "Ближайший банк — Сбербанк, примерно в 134 м по прямой.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "nearest_place",
+        "requested_arguments": "{\"lat\":47.22,\"lon\":39.71,\"kind\":\"bank\"}",
+        "ok": true,
+        "arguments": {
+          "lat": 47.22,
+          "lon": 39.71,
+          "kind": "bank"
+        },
+        "executed_arguments": "{\"lat\":47.22,\"lon\":39.71,\"kind\":\"bank\"}",
+        "observation": {
+          "found": true,
+          "id": 754,
+          "name": "Сбербанк",
+          "lat": 47.2198666,
+          "lon": 39.7082359,
+          "distance_m": 134,
+          "distance_unit": "m",
+          "distance_method": "straight_line"
+        }
+      }
+    ],
+    "input_tokens": 1654,
+    "output_tokens": 54,
+    "cost_usd": 0.00019240000000000001,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "nearest_place",
+          {
+            "lat": 47.22,
+            "lon": 39.71,
+            "kind": "bank"
+          }
+        ]
+      ],
+      "expected_facts": [
+        "134"
+      ]
+    }
+  },
+  {
+    "task": "T07",
+    "variant": "short",
+    "repeat": 1,
+    "diagnostic": null,
+    "log": "T07_short_1.jsonl",
+    "final": "Координаты дома на Белорусской улице, 44: **47.2791691, 39.7493337**.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "geocode",
+        "requested_arguments": "{\"street\":\"Белорусская\",\"housenumber\":\"44\"}",
+        "ok": true,
+        "arguments": {
+          "street": "Белорусская",
+          "housenumber": "44"
+        },
+        "executed_arguments": "{\"street\":\"Белорусская\",\"housenumber\":\"44\"}",
+        "observation": {
+          "found": true,
+          "id": 1459,
+          "name": "Фарфор",
+          "street": "Белорусская улица",
+          "housenumber": "44",
+          "lat": 47.2791691,
+          "lon": 39.7493337
+        }
+      }
+    ],
+    "input_tokens": 1627,
+    "output_tokens": 60,
+    "cost_usd": 0.00019270000000000002,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "geocode",
+          {
+            "street": "Белорус",
+            "housenumber": "44"
+          }
+        ]
+      ],
+      "expected_facts": [
+        "47.2791691",
+        "39.7493337"
+      ]
+    }
+  },
+  {
+    "task": "T07",
+    "variant": "full",
+    "repeat": 1,
+    "diagnostic": null,
+    "log": "T07_full_1.jsonl",
+    "final": "Белорусская улица, 44: **47.2791691, 39.7493337**.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "geocode",
+        "requested_arguments": "{\"street\":\"Белорусская\",\"housenumber\":\"44\"}",
+        "ok": true,
+        "arguments": {
+          "street": "Белорусская",
+          "housenumber": "44"
+        },
+        "executed_arguments": "{\"street\":\"Белорусская\",\"housenumber\":\"44\"}",
+        "observation": {
+          "found": true,
+          "id": 1459,
+          "name": "Фарфор",
+          "street": "Белорусская улица",
+          "housenumber": "44",
+          "lat": 47.2791691,
+          "lon": 39.7493337
+        }
+      }
+    ],
+    "input_tokens": 2761,
+    "output_tokens": 55,
+    "cost_usd": 6.922e-05,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "geocode",
+          {
+            "street": "Белорус",
+            "housenumber": "44"
+          }
+        ]
+      ],
+      "expected_facts": [
+        "47.2791691",
+        "39.7493337"
+      ]
+    }
+  },
+  {
+    "task": "T07",
+    "variant": "full",
+    "repeat": 2,
+    "diagnostic": null,
+    "log": "T07_full_2.jsonl",
+    "final": "Белорусская улица, 44: **47.2791691, 39.7493337**.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "geocode",
+        "requested_arguments": "{\"street\":\"Белорусская\",\"housenumber\":\"44\"}",
+        "ok": true,
+        "arguments": {
+          "street": "Белорусская",
+          "housenumber": "44"
+        },
+        "executed_arguments": "{\"street\":\"Белорусская\",\"housenumber\":\"44\"}",
+        "observation": {
+          "found": true,
+          "id": 1459,
+          "name": "Фарфор",
+          "street": "Белорусская улица",
+          "housenumber": "44",
+          "lat": 47.2791691,
+          "lon": 39.7493337
+        }
+      }
+    ],
+    "input_tokens": 2761,
+    "output_tokens": 55,
+    "cost_usd": 5.565e-05,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "geocode",
+          {
+            "street": "Белорус",
+            "housenumber": "44"
+          }
+        ]
+      ],
+      "expected_facts": [
+        "47.2791691",
+        "39.7493337"
+      ]
+    }
+  },
+  {
+    "task": "T07",
+    "variant": "short",
+    "repeat": 2,
+    "diagnostic": null,
+    "log": "T07_short_2.jsonl",
+    "final": "Белорусская улица, 44: **47.2791691, 39.7493337**.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "geocode",
+        "requested_arguments": "{\"street\":\"Белорусская\",\"housenumber\":\"44\"}",
+        "ok": true,
+        "arguments": {
+          "street": "Белорусская",
+          "housenumber": "44"
+        },
+        "executed_arguments": "{\"street\":\"Белорусская\",\"housenumber\":\"44\"}",
+        "observation": {
+          "found": true,
+          "id": 1459,
+          "name": "Фарфор",
+          "street": "Белорусская улица",
+          "housenumber": "44",
+          "lat": 47.2791691,
+          "lon": 39.7493337
+        }
+      }
+    ],
+    "input_tokens": 1627,
+    "output_tokens": 55,
+    "cost_usd": 0.00019020000000000002,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "geocode",
+          {
+            "street": "Белорус",
+            "housenumber": "44"
+          }
+        ]
+      ],
+      "expected_facts": [
+        "47.2791691",
+        "39.7493337"
+      ]
+    }
+  },
+  {
+    "task": "T07",
+    "variant": "short",
+    "repeat": 3,
+    "diagnostic": null,
+    "log": "T07_short_3.jsonl",
+    "final": "Координаты дома на Белорусской улице, 44: **47.2791691, 39.7493337**.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "geocode",
+        "requested_arguments": "{\"street\":\"Белорусская\",\"housenumber\":\"44\"}",
+        "ok": true,
+        "arguments": {
+          "street": "Белорусская",
+          "housenumber": "44"
+        },
+        "executed_arguments": "{\"street\":\"Белорусская\",\"housenumber\":\"44\"}",
+        "observation": {
+          "found": true,
+          "id": 1459,
+          "name": "Фарфор",
+          "street": "Белорусская улица",
+          "housenumber": "44",
+          "lat": 47.2791691,
+          "lon": 39.7493337
+        }
+      }
+    ],
+    "input_tokens": 1627,
+    "output_tokens": 60,
+    "cost_usd": 0.00019270000000000002,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "geocode",
+          {
+            "street": "Белорус",
+            "housenumber": "44"
+          }
+        ]
+      ],
+      "expected_facts": [
+        "47.2791691",
+        "39.7493337"
+      ]
+    }
+  },
+  {
+    "task": "T07",
+    "variant": "full",
+    "repeat": 3,
+    "diagnostic": null,
+    "log": "T07_full_3.jsonl",
+    "final": "Белорусская улица, 44: координаты **47.2791691, 39.7493337**.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "geocode",
+        "requested_arguments": "{\"street\":\"Белорусская\",\"housenumber\":\"44\"}",
+        "ok": true,
+        "arguments": {
+          "street": "Белорусская",
+          "housenumber": "44"
+        },
+        "executed_arguments": "{\"street\":\"Белорусская\",\"housenumber\":\"44\"}",
+        "observation": {
+          "found": true,
+          "id": 1459,
+          "name": "Фарфор",
+          "street": "Белорусская улица",
+          "housenumber": "44",
+          "lat": 47.2791691,
+          "lon": 39.7493337
+        }
+      }
+    ],
+    "input_tokens": 2761,
+    "output_tokens": 57,
+    "cost_usd": 5.665e-05,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": true,
+      "tool_args_correct": true,
+      "facts_correct": true,
+      "category": null,
+      "expected_calls": [
+        [
+          "geocode",
+          {
+            "street": "Белорус",
+            "housenumber": "44"
+          }
+        ]
+      ],
+      "expected_facts": [
+        "47.2791691",
+        "39.7493337"
+      ]
+    }
+  },
+  {
+    "task": "T08",
+    "variant": "full",
+    "repeat": 1,
+    "diagnostic": null,
+    "log": "T08_full_1.jsonl",
+    "final": "В карточке места с id 1728 указаны часы: ежедневно с 08:00 до 21:00.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "place_details",
+        "requested_arguments": "{\"place_id\":1728}",
+        "ok": true,
+        "arguments": {
+          "place_id": 1728
+        },
+        "executed_arguments": "{\"place_id\":1728}",
+        "observation": {
+          "id": 1728,
+          "name": "Лаки Фарма",
+          "brand": null,
+          "street": null,
+          "housenumber": null,
+          "opening_hours": "Mo-Su 08:00-21:00",
+          "phone": "+7 900 2580278;+7 918 2012222"
+        }
+      }
+    ],
+    "input_tokens": 2765,
+    "output_tokens": 49,
+    "cost_usd": 6.683499999999999e-05,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": false,
+      "tool_args_correct": true,
+      "facts_correct": false,
+      "category": "ложное «готово»",
+      "expected_calls": [
+        [
+          "place_details",
+          {
+            "place_id": 1728
+          }
+        ]
+      ],
+      "expected_facts": [
+        "Mo-Su 08:00-21:00"
+      ]
+    }
+  },
+  {
+    "task": "T08",
+    "variant": "short",
+    "repeat": 1,
+    "diagnostic": null,
+    "log": "T08_short_1.jsonl",
+    "final": "В карточке указано: ежедневно с 08:00 до 21:00.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "place_details",
+        "requested_arguments": "{\"place_id\":1728}",
+        "ok": true,
+        "arguments": {
+          "place_id": 1728
+        },
+        "executed_arguments": "{\"place_id\":1728}",
+        "observation": {
+          "id": 1728,
+          "name": "Лаки Фарма",
+          "brand": null,
+          "street": null,
+          "housenumber": null,
+          "opening_hours": "Mo-Su 08:00-21:00",
+          "phone": "+7 900 2580278;+7 918 2012222"
+        }
+      }
+    ],
+    "input_tokens": 1631,
+    "output_tokens": 42,
+    "cost_usd": 0.0001841,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": false,
+      "tool_args_correct": true,
+      "facts_correct": false,
+      "category": "ложное «готово»",
+      "expected_calls": [
+        [
+          "place_details",
+          {
+            "place_id": 1728
+          }
+        ]
+      ],
+      "expected_facts": [
+        "Mo-Su 08:00-21:00"
+      ]
+    }
+  },
+  {
+    "task": "T08",
+    "variant": "short",
+    "repeat": 2,
+    "diagnostic": null,
+    "log": "T08_short_2.jsonl",
+    "final": "В карточке места с id 1728 указаны часы работы: ежедневно с 08:00 до 21:00.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "place_details",
+        "requested_arguments": "{\"place_id\":1728}",
+        "ok": true,
+        "arguments": {
+          "place_id": 1728
+        },
+        "executed_arguments": "{\"place_id\":1728}",
+        "observation": {
+          "id": 1728,
+          "name": "Лаки Фарма",
+          "brand": null,
+          "street": null,
+          "housenumber": null,
+          "opening_hours": "Mo-Su 08:00-21:00",
+          "phone": "+7 900 2580278;+7 918 2012222"
+        }
+      }
+    ],
+    "input_tokens": 1631,
+    "output_tokens": 50,
+    "cost_usd": 0.00018810000000000002,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": false,
+      "tool_args_correct": true,
+      "facts_correct": false,
+      "category": "ложное «готово»",
+      "expected_calls": [
+        [
+          "place_details",
+          {
+            "place_id": 1728
+          }
+        ]
+      ],
+      "expected_facts": [
+        "Mo-Su 08:00-21:00"
+      ]
+    }
+  },
+  {
+    "task": "T08",
+    "variant": "full",
+    "repeat": 2,
+    "diagnostic": null,
+    "log": "T08_full_2.jsonl",
+    "final": "В карточке места с id 1728 указаны часы работы: ежедневно с 08:00 до 21:00.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "place_details",
+        "requested_arguments": "{\"place_id\":1728}",
+        "ok": true,
+        "arguments": {
+          "place_id": 1728
+        },
+        "executed_arguments": "{\"place_id\":1728}",
+        "observation": {
+          "id": 1728,
+          "name": "Лаки Фарма",
+          "brand": null,
+          "street": null,
+          "housenumber": null,
+          "opening_hours": "Mo-Su 08:00-21:00",
+          "phone": "+7 900 2580278;+7 918 2012222"
+        }
+      }
+    ],
+    "input_tokens": 2765,
+    "output_tokens": 50,
+    "cost_usd": 5.319e-05,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": false,
+      "tool_args_correct": true,
+      "facts_correct": false,
+      "category": "ложное «готово»",
+      "expected_calls": [
+        [
+          "place_details",
+          {
+            "place_id": 1728
+          }
+        ]
+      ],
+      "expected_facts": [
+        "Mo-Su 08:00-21:00"
+      ]
+    }
+  },
+  {
+    "task": "T08",
+    "variant": "full",
+    "repeat": 3,
+    "diagnostic": null,
+    "log": "T08_full_3.jsonl",
+    "final": "В карточке места с id 1728 указано: ежедневно с 08:00 до 21:00.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "place_details",
+        "requested_arguments": "{\"place_id\":1728}",
+        "ok": true,
+        "arguments": {
+          "place_id": 1728
+        },
+        "executed_arguments": "{\"place_id\":1728}",
+        "observation": {
+          "id": 1728,
+          "name": "Лаки Фарма",
+          "brand": null,
+          "street": null,
+          "housenumber": null,
+          "opening_hours": "Mo-Su 08:00-21:00",
+          "phone": "+7 900 2580278;+7 918 2012222"
+        }
+      }
+    ],
+    "input_tokens": 2765,
+    "output_tokens": 48,
+    "cost_usd": 5.219e-05,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": false,
+      "tool_args_correct": true,
+      "facts_correct": false,
+      "category": "ложное «готово»",
+      "expected_calls": [
+        [
+          "place_details",
+          {
+            "place_id": 1728
+          }
+        ]
+      ],
+      "expected_facts": [
+        "Mo-Su 08:00-21:00"
+      ]
+    }
+  },
+  {
+    "task": "T08",
+    "variant": "short",
+    "repeat": 3,
+    "diagnostic": null,
+    "log": "T08_short_3.jsonl",
+    "final": "В карточке указаны часы работы: ежедневно с 08:00 до 21:00.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "place_details",
+        "requested_arguments": "{\"place_id\":1728}",
+        "ok": true,
+        "arguments": {
+          "place_id": 1728
+        },
+        "executed_arguments": "{\"place_id\":1728}",
+        "observation": {
+          "id": 1728,
+          "name": "Лаки Фарма",
+          "brand": null,
+          "street": null,
+          "housenumber": null,
+          "opening_hours": "Mo-Su 08:00-21:00",
+          "phone": "+7 900 2580278;+7 918 2012222"
+        }
+      }
+    ],
+    "input_tokens": 1631,
+    "output_tokens": 44,
+    "cost_usd": 0.0001851,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 2,
+    "evaluation": {
+      "passed": false,
+      "tool_args_correct": true,
+      "facts_correct": false,
+      "category": "ложное «готово»",
+      "expected_calls": [
+        [
+          "place_details",
+          {
+            "place_id": 1728
+          }
+        ]
+      ],
+      "expected_facts": [
+        "Mo-Su 08:00-21:00"
+      ]
+    }
+  },
+  {
+    "task": "T09",
+    "variant": "short",
+    "repeat": 1,
+    "diagnostic": null,
+    "log": "T09_short_1.jsonl",
+    "final": "Ближайшая аптека — «Лаки Фарма», примерно в 123 м от дома. Работает ежедневно с 08:00 до 21:00.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "geocode",
+        "requested_arguments": "{\"street\":\"Белорусская\",\"housenumber\":\"44\"}",
+        "ok": true,
+        "arguments": {
+          "street": "Белорусская",
+          "housenumber": "44"
+        },
+        "executed_arguments": "{\"street\":\"Белорусская\",\"housenumber\":\"44\"}",
+        "observation": {
+          "found": true,
+          "id": 1459,
+          "name": "Фарфор",
+          "street": "Белорусская улица",
+          "housenumber": "44",
+          "lat": 47.2791691,
+          "lon": 39.7493337
+        }
+      },
+      {
+        "step": 2,
+        "name": "nearest_place",
+        "requested_arguments": "{\"lat\":47.2791691,\"lon\":39.7493337,\"kind\":\"pharmacy\"}",
+        "ok": true,
+        "arguments": {
+          "lat": 47.2791691,
+          "lon": 39.7493337,
+          "kind": "pharmacy"
+        },
+        "executed_arguments": "{\"lat\":47.2791691,\"lon\":39.7493337,\"kind\":\"pharmacy\"}",
+        "observation": {
+          "found": true,
+          "id": 1728,
+          "name": "Лаки Фарма",
+          "lat": 47.2785261,
+          "lon": 39.7506667,
+          "distance_m": 123,
+          "distance_unit": "m",
+          "distance_method": "straight_line"
+        }
+      },
+      {
+        "step": 3,
+        "name": "place_details",
+        "requested_arguments": "{\"place_id\":1728}",
+        "ok": true,
+        "arguments": {
+          "place_id": 1728
+        },
+        "executed_arguments": "{\"place_id\":1728}",
+        "observation": {
+          "id": 1728,
+          "name": "Лаки Фарма",
+          "brand": null,
+          "street": null,
+          "housenumber": null,
+          "opening_hours": "Mo-Su 08:00-21:00",
+          "phone": "+7 900 2580278;+7 918 2012222"
+        }
+      }
+    ],
+    "input_tokens": 3714,
+    "output_tokens": 125,
+    "cost_usd": 0.00046097499999999997,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost",
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 4,
+    "evaluation": {
+      "passed": false,
+      "tool_args_correct": true,
+      "facts_correct": false,
+      "category": "ложное «готово»",
+      "expected_calls": [
+        [
+          "geocode",
+          {
+            "street": "Белорус",
+            "housenumber": "44"
+          }
+        ],
+        [
+          "nearest_place",
+          {
+            "lat": 47.2791691,
+            "lon": 39.7493337,
+            "kind": "pharmacy"
+          }
+        ],
+        [
+          "place_details",
+          {
+            "place_id": 1728
+          }
+        ]
+      ],
+      "expected_facts": [
+        "Mo-Su 08:00-21:00"
+      ]
+    }
+  },
+  {
+    "task": "T09",
+    "variant": "full",
+    "repeat": 1,
+    "diagnostic": null,
+    "log": "T09_full_1.jsonl",
+    "final": "Ближайшая аптека — «Лаки Фарма», примерно в 123 м по прямой. Работает ежедневно с 08:00 до 21:00.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "geocode",
+        "requested_arguments": "{\"street\":\"Белорусская\",\"housenumber\":\"44\"}",
+        "ok": true,
+        "arguments": {
+          "street": "Белорусская",
+          "housenumber": "44"
+        },
+        "executed_arguments": "{\"street\":\"Белорусская\",\"housenumber\":\"44\"}",
+        "observation": {
+          "found": true,
+          "id": 1459,
+          "name": "Фарфор",
+          "street": "Белорусская улица",
+          "housenumber": "44",
+          "lat": 47.2791691,
+          "lon": 39.7493337
+        }
+      },
+      {
+        "step": 2,
+        "name": "nearest_place",
+        "requested_arguments": "{\"lat\":47.2791691,\"lon\":39.7493337,\"kind\":\"pharmacy\"}",
+        "ok": true,
+        "arguments": {
+          "lat": 47.2791691,
+          "lon": 39.7493337,
+          "kind": "pharmacy"
+        },
+        "executed_arguments": "{\"lat\":47.2791691,\"lon\":39.7493337,\"kind\":\"pharmacy\"}",
+        "observation": {
+          "found": true,
+          "id": 1728,
+          "name": "Лаки Фарма",
+          "lat": 47.2785261,
+          "lon": 39.7506667,
+          "distance_m": 123,
+          "distance_unit": "m",
+          "distance_method": "straight_line"
+        }
+      },
+      {
+        "step": 3,
+        "name": "place_details",
+        "requested_arguments": "{\"place_id\":1728}",
+        "ok": true,
+        "arguments": {
+          "place_id": 1728
+        },
+        "executed_arguments": "{\"place_id\":1728}",
+        "observation": {
+          "id": 1728,
+          "name": "Лаки Фарма",
+          "brand": null,
+          "street": null,
+          "housenumber": null,
+          "opening_hours": "Mo-Su 08:00-21:00",
+          "phone": "+7 900 2580278;+7 918 2012222"
+        }
+      }
+    ],
+    "input_tokens": 5982,
+    "output_tokens": 126,
+    "cost_usd": 0.00016323,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost",
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 4,
+    "evaluation": {
+      "passed": false,
+      "tool_args_correct": true,
+      "facts_correct": false,
+      "category": "ложное «готово»",
+      "expected_calls": [
+        [
+          "geocode",
+          {
+            "street": "Белорус",
+            "housenumber": "44"
+          }
+        ],
+        [
+          "nearest_place",
+          {
+            "lat": 47.2791691,
+            "lon": 39.7493337,
+            "kind": "pharmacy"
+          }
+        ],
+        [
+          "place_details",
+          {
+            "place_id": 1728
+          }
+        ]
+      ],
+      "expected_facts": [
+        "Mo-Su 08:00-21:00"
+      ]
+    }
+  },
+  {
+    "task": "T09",
+    "variant": "full",
+    "repeat": 2,
+    "diagnostic": null,
+    "log": "T09_full_2.jsonl",
+    "final": "Ближайшая аптека — «Лаки Фарма», примерно в 123 м по прямой от дома. По карточке работает ежедневно с 08:00 до 21:00.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "geocode",
+        "requested_arguments": "{\"street\":\"Белорусская\",\"housenumber\":\"44\"}",
+        "ok": true,
+        "arguments": {
+          "street": "Белорусская",
+          "housenumber": "44"
+        },
+        "executed_arguments": "{\"street\":\"Белорусская\",\"housenumber\":\"44\"}",
+        "observation": {
+          "found": true,
+          "id": 1459,
+          "name": "Фарфор",
+          "street": "Белорусская улица",
+          "housenumber": "44",
+          "lat": 47.2791691,
+          "lon": 39.7493337
+        }
+      },
+      {
+        "step": 2,
+        "name": "nearest_place",
+        "requested_arguments": "{\"lat\":47.2791691,\"lon\":39.7493337,\"kind\":\"pharmacy\"}",
+        "ok": true,
+        "arguments": {
+          "lat": 47.2791691,
+          "lon": 39.7493337,
+          "kind": "pharmacy"
+        },
+        "executed_arguments": "{\"lat\":47.2791691,\"lon\":39.7493337,\"kind\":\"pharmacy\"}",
+        "observation": {
+          "found": true,
+          "id": 1728,
+          "name": "Лаки Фарма",
+          "lat": 47.2785261,
+          "lon": 39.7506667,
+          "distance_m": 123,
+          "distance_unit": "m",
+          "distance_method": "straight_line"
+        }
+      },
+      {
+        "step": 3,
+        "name": "place_details",
+        "requested_arguments": "{\"place_id\":1728}",
+        "ok": true,
+        "arguments": {
+          "place_id": 1728
+        },
+        "executed_arguments": "{\"place_id\":1728}",
+        "observation": {
+          "id": 1728,
+          "name": "Лаки Фарма",
+          "brand": null,
+          "street": null,
+          "housenumber": null,
+          "opening_hours": "Mo-Su 08:00-21:00",
+          "phone": "+7 900 2580278;+7 918 2012222"
+        }
+      }
+    ],
+    "input_tokens": 5982,
+    "output_tokens": 129,
+    "cost_usd": 0.00012539999999999999,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost",
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 4,
+    "evaluation": {
+      "passed": false,
+      "tool_args_correct": true,
+      "facts_correct": false,
+      "category": "ложное «готово»",
+      "expected_calls": [
+        [
+          "geocode",
+          {
+            "street": "Белорус",
+            "housenumber": "44"
+          }
+        ],
+        [
+          "nearest_place",
+          {
+            "lat": 47.2791691,
+            "lon": 39.7493337,
+            "kind": "pharmacy"
+          }
+        ],
+        [
+          "place_details",
+          {
+            "place_id": 1728
+          }
+        ]
+      ],
+      "expected_facts": [
+        "Mo-Su 08:00-21:00"
+      ]
+    }
+  },
+  {
+    "task": "T09",
+    "variant": "short",
+    "repeat": 2,
+    "diagnostic": null,
+    "log": "T09_short_2.jsonl",
+    "final": "Ближайшая аптека — «Лаки Фарма», примерно в 123 м от дома. Работает ежедневно с 08:00 до 21:00.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "geocode",
+        "requested_arguments": "{\"street\":\"Белорусская\",\"housenumber\":\"44\"}",
+        "ok": true,
+        "arguments": {
+          "street": "Белорусская",
+          "housenumber": "44"
+        },
+        "executed_arguments": "{\"street\":\"Белорусская\",\"housenumber\":\"44\"}",
+        "observation": {
+          "found": true,
+          "id": 1459,
+          "name": "Фарфор",
+          "street": "Белорусская улица",
+          "housenumber": "44",
+          "lat": 47.2791691,
+          "lon": 39.7493337
+        }
+      },
+      {
+        "step": 2,
+        "name": "nearest_place",
+        "requested_arguments": "{\"lat\":47.2791691,\"lon\":39.7493337,\"kind\":\"pharmacy\"}",
+        "ok": true,
+        "arguments": {
+          "lat": 47.2791691,
+          "lon": 39.7493337,
+          "kind": "pharmacy"
+        },
+        "executed_arguments": "{\"lat\":47.2791691,\"lon\":39.7493337,\"kind\":\"pharmacy\"}",
+        "observation": {
+          "found": true,
+          "id": 1728,
+          "name": "Лаки Фарма",
+          "lat": 47.2785261,
+          "lon": 39.7506667,
+          "distance_m": 123,
+          "distance_unit": "m",
+          "distance_method": "straight_line"
+        }
+      },
+      {
+        "step": 3,
+        "name": "place_details",
+        "requested_arguments": "{\"place_id\":1728}",
+        "ok": true,
+        "arguments": {
+          "place_id": 1728
+        },
+        "executed_arguments": "{\"place_id\":1728}",
+        "observation": {
+          "id": 1728,
+          "name": "Лаки Фарма",
+          "brand": null,
+          "street": null,
+          "housenumber": null,
+          "opening_hours": "Mo-Su 08:00-21:00",
+          "phone": "+7 900 2580278;+7 918 2012222"
+        }
+      }
+    ],
+    "input_tokens": 3714,
+    "output_tokens": 125,
+    "cost_usd": 0.00033643,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost",
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 4,
+    "evaluation": {
+      "passed": false,
+      "tool_args_correct": true,
+      "facts_correct": false,
+      "category": "ложное «готово»",
+      "expected_calls": [
+        [
+          "geocode",
+          {
+            "street": "Белорус",
+            "housenumber": "44"
+          }
+        ],
+        [
+          "nearest_place",
+          {
+            "lat": 47.2791691,
+            "lon": 39.7493337,
+            "kind": "pharmacy"
+          }
+        ],
+        [
+          "place_details",
+          {
+            "place_id": 1728
+          }
+        ]
+      ],
+      "expected_facts": [
+        "Mo-Su 08:00-21:00"
+      ]
+    }
+  },
+  {
+    "task": "T09",
+    "variant": "short",
+    "repeat": 3,
+    "diagnostic": null,
+    "log": "T09_short_3.jsonl",
+    "final": "Ближайшая аптека — «Лаки Фарма», примерно в 123 м от дома. Работает ежедневно с 08:00 до 21:00.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "geocode",
+        "requested_arguments": "{\"street\":\"Белорусская\",\"housenumber\":\"44\"}",
+        "ok": true,
+        "arguments": {
+          "street": "Белорусская",
+          "housenumber": "44"
+        },
+        "executed_arguments": "{\"street\":\"Белорусская\",\"housenumber\":\"44\"}",
+        "observation": {
+          "found": true,
+          "id": 1459,
+          "name": "Фарфор",
+          "street": "Белорусская улица",
+          "housenumber": "44",
+          "lat": 47.2791691,
+          "lon": 39.7493337
+        }
+      },
+      {
+        "step": 2,
+        "name": "nearest_place",
+        "requested_arguments": "{\"lat\":47.2791691,\"lon\":39.7493337,\"kind\":\"pharmacy\"}",
+        "ok": true,
+        "arguments": {
+          "lat": 47.2791691,
+          "lon": 39.7493337,
+          "kind": "pharmacy"
+        },
+        "executed_arguments": "{\"lat\":47.2791691,\"lon\":39.7493337,\"kind\":\"pharmacy\"}",
+        "observation": {
+          "found": true,
+          "id": 1728,
+          "name": "Лаки Фарма",
+          "lat": 47.2785261,
+          "lon": 39.7506667,
+          "distance_m": 123,
+          "distance_unit": "m",
+          "distance_method": "straight_line"
+        }
+      },
+      {
+        "step": 3,
+        "name": "place_details",
+        "requested_arguments": "{\"place_id\":1728}",
+        "ok": true,
+        "arguments": {
+          "place_id": 1728
+        },
+        "executed_arguments": "{\"place_id\":1728}",
+        "observation": {
+          "id": 1728,
+          "name": "Лаки Фарма",
+          "brand": null,
+          "street": null,
+          "housenumber": null,
+          "opening_hours": "Mo-Su 08:00-21:00",
+          "phone": "+7 900 2580278;+7 918 2012222"
+        }
+      }
+    ],
+    "input_tokens": 3714,
+    "output_tokens": 125,
+    "cost_usd": 0.00033643,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost",
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 4,
+    "evaluation": {
+      "passed": false,
+      "tool_args_correct": true,
+      "facts_correct": false,
+      "category": "ложное «готово»",
+      "expected_calls": [
+        [
+          "geocode",
+          {
+            "street": "Белорус",
+            "housenumber": "44"
+          }
+        ],
+        [
+          "nearest_place",
+          {
+            "lat": 47.2791691,
+            "lon": 39.7493337,
+            "kind": "pharmacy"
+          }
+        ],
+        [
+          "place_details",
+          {
+            "place_id": 1728
+          }
+        ]
+      ],
+      "expected_facts": [
+        "Mo-Su 08:00-21:00"
+      ]
+    }
+  },
+  {
+    "task": "T09",
+    "variant": "full",
+    "repeat": 3,
+    "diagnostic": null,
+    "log": "T09_full_3.jsonl",
+    "final": "Ближайшая аптека — «Лаки Фарма», примерно в 123 м по прямой от Белорусской, 44. Работает ежедневно с 08:00 до 21:00.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "geocode",
+        "requested_arguments": "{\"street\":\"Белорусская\",\"housenumber\":\"44\"}",
+        "ok": true,
+        "arguments": {
+          "street": "Белорусская",
+          "housenumber": "44"
+        },
+        "executed_arguments": "{\"street\":\"Белорусская\",\"housenumber\":\"44\"}",
+        "observation": {
+          "found": true,
+          "id": 1459,
+          "name": "Фарфор",
+          "street": "Белорусская улица",
+          "housenumber": "44",
+          "lat": 47.2791691,
+          "lon": 39.7493337
+        }
+      },
+      {
+        "step": 2,
+        "name": "nearest_place",
+        "requested_arguments": "{\"lat\":47.2791691,\"lon\":39.7493337,\"kind\":\"pharmacy\"}",
+        "ok": true,
+        "arguments": {
+          "lat": 47.2791691,
+          "lon": 39.7493337,
+          "kind": "pharmacy"
+        },
+        "executed_arguments": "{\"lat\":47.2791691,\"lon\":39.7493337,\"kind\":\"pharmacy\"}",
+        "observation": {
+          "found": true,
+          "id": 1728,
+          "name": "Лаки Фарма",
+          "lat": 47.2785261,
+          "lon": 39.7506667,
+          "distance_m": 123,
+          "distance_unit": "m",
+          "distance_method": "straight_line"
+        }
+      },
+      {
+        "step": 3,
+        "name": "place_details",
+        "requested_arguments": "{\"place_id\":1728}",
+        "ok": true,
+        "arguments": {
+          "place_id": 1728
+        },
+        "executed_arguments": "{\"place_id\":1728}",
+        "observation": {
+          "id": 1728,
+          "name": "Лаки Фарма",
+          "brand": null,
+          "street": null,
+          "housenumber": null,
+          "opening_hours": "Mo-Su 08:00-21:00",
+          "phone": "+7 900 2580278;+7 918 2012222"
+        }
+      }
+    ],
+    "input_tokens": 5982,
+    "output_tokens": 133,
+    "cost_usd": 0.0001274,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost",
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 4,
+    "evaluation": {
+      "passed": false,
+      "tool_args_correct": true,
+      "facts_correct": false,
+      "category": "ложное «готово»",
+      "expected_calls": [
+        [
+          "geocode",
+          {
+            "street": "Белорус",
+            "housenumber": "44"
+          }
+        ],
+        [
+          "nearest_place",
+          {
+            "lat": 47.2791691,
+            "lon": 39.7493337,
+            "kind": "pharmacy"
+          }
+        ],
+        [
+          "place_details",
+          {
+            "place_id": 1728
+          }
+        ]
+      ],
+      "expected_facts": [
+        "Mo-Su 08:00-21:00"
+      ]
+    }
+  },
+  {
+    "task": "T10",
+    "variant": "full",
+    "repeat": 1,
+    "diagnostic": null,
+    "log": "T10_full_1.jsonl",
+    "final": "Ближайший пункт выдачи — «Авито», в 79 м от указанной точки. Телефон: **+7 800 600-00-01**.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "nearest_place",
+        "requested_arguments": "{\"lat\":47.23,\"lon\":39.7,\"kind\":\"outpost\"}",
+        "ok": true,
+        "arguments": {
+          "lat": 47.23,
+          "lon": 39.7,
+          "kind": "outpost"
+        },
+        "executed_arguments": "{\"lat\":47.23,\"lon\":39.7,\"kind\":\"outpost\"}",
+        "observation": {
+          "found": true,
+          "id": 7541,
+          "name": "Авито",
+          "lat": 47.2293335,
+          "lon": 39.7003707,
+          "distance_m": 79,
+          "distance_unit": "m",
+          "distance_method": "straight_line"
+        }
+      },
+      {
+        "step": 2,
+        "name": "place_details",
+        "requested_arguments": "{\"place_id\":7541}",
+        "ok": true,
+        "arguments": {
+          "place_id": 7541
+        },
+        "executed_arguments": "{\"place_id\":7541}",
+        "observation": {
+          "id": 7541,
+          "name": "Авито",
+          "brand": "Авито",
+          "street": null,
+          "housenumber": null,
+          "opening_hours": "Mo-Su 09:00-21:00",
+          "phone": "+7 800 6000001"
+        }
+      }
+    ],
+    "input_tokens": 4360,
+    "output_tokens": 93,
+    "cost_usd": 0.00011851,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 3,
+    "evaluation": {
+      "passed": false,
+      "tool_args_correct": true,
+      "facts_correct": false,
+      "category": "ложное «готово»",
+      "expected_calls": [
+        [
+          "nearest_place",
+          {
+            "lat": 47.23,
+            "lon": 39.7,
+            "kind": "outpost"
+          }
+        ],
+        [
+          "place_details",
+          {
+            "place_id": 7541
+          }
+        ]
+      ],
+      "expected_facts": [
+        "+7 800 6000001"
+      ]
+    }
+  },
+  {
+    "task": "T10",
+    "variant": "short",
+    "repeat": 1,
+    "diagnostic": null,
+    "log": "T10_short_1.jsonl",
+    "final": "Ближайший пункт выдачи — «Авито», в 79 м. Телефон: **+7 800 600-00-01**.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "nearest_place",
+        "requested_arguments": "{\"lat\":47.23,\"lon\":39.70,\"kind\":\"outpost\"}",
+        "ok": true,
+        "arguments": {
+          "lat": 47.23,
+          "lon": 39.7,
+          "kind": "outpost"
+        },
+        "executed_arguments": "{\"lat\":47.23,\"lon\":39.70,\"kind\":\"outpost\"}",
+        "observation": {
+          "found": true,
+          "id": 7541,
+          "name": "Авито",
+          "lat": 47.2293335,
+          "lon": 39.7003707,
+          "distance_m": 79,
+          "distance_unit": "m",
+          "distance_method": "straight_line"
+        }
+      },
+      {
+        "step": 2,
+        "name": "place_details",
+        "requested_arguments": "{\"place_id\":7541}",
+        "ok": true,
+        "arguments": {
+          "place_id": 7541
+        },
+        "executed_arguments": "{\"place_id\":7541}",
+        "observation": {
+          "id": 7541,
+          "name": "Авито",
+          "brand": "Авито",
+          "street": null,
+          "housenumber": null,
+          "opening_hours": "Mo-Su 09:00-21:00",
+          "phone": "+7 800 6000001"
+        }
+      }
+    ],
+    "input_tokens": 2659,
+    "output_tokens": 89,
+    "cost_usd": 0.00031039999999999996,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 3,
+    "evaluation": {
+      "passed": false,
+      "tool_args_correct": true,
+      "facts_correct": false,
+      "category": "ложное «готово»",
+      "expected_calls": [
+        [
+          "nearest_place",
+          {
+            "lat": 47.23,
+            "lon": 39.7,
+            "kind": "outpost"
+          }
+        ],
+        [
+          "place_details",
+          {
+            "place_id": 7541
+          }
+        ]
+      ],
+      "expected_facts": [
+        "+7 800 6000001"
+      ]
+    }
+  },
+  {
+    "task": "T10",
+    "variant": "short",
+    "repeat": 2,
+    "diagnostic": null,
+    "log": "T10_short_2.jsonl",
+    "final": "Ближайший пункт выдачи — «Авито», в 79 м от указанной точки. Телефон: **+7 800 600-00-01**.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "nearest_place",
+        "requested_arguments": "{\"lat\":47.23,\"lon\":39.70,\"kind\":\"outpost\"}",
+        "ok": true,
+        "arguments": {
+          "lat": 47.23,
+          "lon": 39.7,
+          "kind": "outpost"
+        },
+        "executed_arguments": "{\"lat\":47.23,\"lon\":39.70,\"kind\":\"outpost\"}",
+        "observation": {
+          "found": true,
+          "id": 7541,
+          "name": "Авито",
+          "lat": 47.2293335,
+          "lon": 39.7003707,
+          "distance_m": 79,
+          "distance_unit": "m",
+          "distance_method": "straight_line"
+        }
+      },
+      {
+        "step": 2,
+        "name": "place_details",
+        "requested_arguments": "{\"place_id\":7541}",
+        "ok": true,
+        "arguments": {
+          "place_id": 7541
+        },
+        "executed_arguments": "{\"place_id\":7541}",
+        "observation": {
+          "id": 7541,
+          "name": "Авито",
+          "brand": "Авито",
+          "street": null,
+          "housenumber": null,
+          "opening_hours": "Mo-Su 09:00-21:00",
+          "phone": "+7 800 6000001"
+        }
+      }
+    ],
+    "input_tokens": 2659,
+    "output_tokens": 93,
+    "cost_usd": 0.0003124,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 3,
+    "evaluation": {
+      "passed": false,
+      "tool_args_correct": true,
+      "facts_correct": false,
+      "category": "ложное «готово»",
+      "expected_calls": [
+        [
+          "nearest_place",
+          {
+            "lat": 47.23,
+            "lon": 39.7,
+            "kind": "outpost"
+          }
+        ],
+        [
+          "place_details",
+          {
+            "place_id": 7541
+          }
+        ]
+      ],
+      "expected_facts": [
+        "+7 800 6000001"
+      ]
+    }
+  },
+  {
+    "task": "T10",
+    "variant": "full",
+    "repeat": 2,
+    "diagnostic": null,
+    "log": "T10_full_2.jsonl",
+    "final": "Ближайший пункт выдачи — «Авито», примерно в 79 м. Телефон: +7 800 600-00-01.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "nearest_place",
+        "requested_arguments": "{\"lat\":47.23,\"lon\":39.70,\"kind\":\"outpost\"}",
+        "ok": true,
+        "arguments": {
+          "lat": 47.23,
+          "lon": 39.7,
+          "kind": "outpost"
+        },
+        "executed_arguments": "{\"lat\":47.23,\"lon\":39.70,\"kind\":\"outpost\"}",
+        "observation": {
+          "found": true,
+          "id": 7541,
+          "name": "Авито",
+          "lat": 47.2293335,
+          "lon": 39.7003707,
+          "distance_m": 79,
+          "distance_unit": "m",
+          "distance_method": "straight_line"
+        }
+      },
+      {
+        "step": 2,
+        "name": "place_details",
+        "requested_arguments": "{\"place_id\":7541}",
+        "ok": true,
+        "arguments": {
+          "place_id": 7541
+        },
+        "executed_arguments": "{\"place_id\":7541}",
+        "observation": {
+          "id": 7541,
+          "name": "Авито",
+          "brand": "Авито",
+          "street": null,
+          "housenumber": null,
+          "opening_hours": "Mo-Su 09:00-21:00",
+          "phone": "+7 800 6000001"
+        }
+      }
+    ],
+    "input_tokens": 4360,
+    "output_tokens": 88,
+    "cost_usd": 8.841e-05,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 3,
+    "evaluation": {
+      "passed": false,
+      "tool_args_correct": true,
+      "facts_correct": false,
+      "category": "ложное «готово»",
+      "expected_calls": [
+        [
+          "nearest_place",
+          {
+            "lat": 47.23,
+            "lon": 39.7,
+            "kind": "outpost"
+          }
+        ],
+        [
+          "place_details",
+          {
+            "place_id": 7541
+          }
+        ]
+      ],
+      "expected_facts": [
+        "+7 800 6000001"
+      ]
+    }
+  },
+  {
+    "task": "T10",
+    "variant": "full",
+    "repeat": 3,
+    "diagnostic": null,
+    "log": "T10_full_3.jsonl",
+    "final": "Ближайший пункт выдачи — «Авито», примерно в 79 м по прямой. Телефон: **+7 800 600-00-01**.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "nearest_place",
+        "requested_arguments": "{\"lat\":47.23,\"lon\":39.7,\"kind\":\"outpost\"}",
+        "ok": true,
+        "arguments": {
+          "lat": 47.23,
+          "lon": 39.7,
+          "kind": "outpost"
+        },
+        "executed_arguments": "{\"lat\":47.23,\"lon\":39.7,\"kind\":\"outpost\"}",
+        "observation": {
+          "found": true,
+          "id": 7541,
+          "name": "Авито",
+          "lat": 47.2293335,
+          "lon": 39.7003707,
+          "distance_m": 79,
+          "distance_unit": "m",
+          "distance_method": "straight_line"
+        }
+      },
+      {
+        "step": 2,
+        "name": "place_details",
+        "requested_arguments": "{\"place_id\":7541}",
+        "ok": true,
+        "arguments": {
+          "place_id": 7541
+        },
+        "executed_arguments": "{\"place_id\":7541}",
+        "observation": {
+          "id": 7541,
+          "name": "Авито",
+          "brand": "Авито",
+          "street": null,
+          "housenumber": null,
+          "opening_hours": "Mo-Su 09:00-21:00",
+          "phone": "+7 800 6000001"
+        }
+      }
+    ],
+    "input_tokens": 4360,
+    "output_tokens": 93,
+    "cost_usd": 9.091e-05,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 3,
+    "evaluation": {
+      "passed": false,
+      "tool_args_correct": true,
+      "facts_correct": false,
+      "category": "ложное «готово»",
+      "expected_calls": [
+        [
+          "nearest_place",
+          {
+            "lat": 47.23,
+            "lon": 39.7,
+            "kind": "outpost"
+          }
+        ],
+        [
+          "place_details",
+          {
+            "place_id": 7541
+          }
+        ]
+      ],
+      "expected_facts": [
+        "+7 800 6000001"
+      ]
+    }
+  },
+  {
+    "task": "T10",
+    "variant": "short",
+    "repeat": 3,
+    "diagnostic": null,
+    "log": "T10_short_3.jsonl",
+    "final": "Ближайший пункт выдачи — «Авито», в 79 м от указанной точки. Телефон: **+7 800 600-00-01**.",
+    "status": "completed",
+    "calls": [
+      {
+        "step": 1,
+        "name": "nearest_place",
+        "requested_arguments": "{\"lat\":47.23,\"lon\":39.7,\"kind\":\"outpost\"}",
+        "ok": true,
+        "arguments": {
+          "lat": 47.23,
+          "lon": 39.7,
+          "kind": "outpost"
+        },
+        "executed_arguments": "{\"lat\":47.23,\"lon\":39.7,\"kind\":\"outpost\"}",
+        "observation": {
+          "found": true,
+          "id": 7541,
+          "name": "Авито",
+          "lat": 47.2293335,
+          "lon": 39.7003707,
+          "distance_m": 79,
+          "distance_unit": "m",
+          "distance_method": "straight_line"
+        }
+      },
+      {
+        "step": 2,
+        "name": "place_details",
+        "requested_arguments": "{\"place_id\":7541}",
+        "ok": true,
+        "arguments": {
+          "place_id": 7541
+        },
+        "executed_arguments": "{\"place_id\":7541}",
+        "observation": {
+          "id": 7541,
+          "name": "Авито",
+          "brand": "Авито",
+          "street": null,
+          "housenumber": null,
+          "opening_hours": "Mo-Su 09:00-21:00",
+          "phone": "+7 800 6000001"
+        }
+      }
+    ],
+    "input_tokens": 2659,
+    "output_tokens": 93,
+    "cost_usd": 0.0003124,
+    "cost_sources": [
+      "provider_usage.cost",
+      "provider_usage.cost",
+      "provider_usage.cost"
+    ],
+    "steps": 3,
+    "evaluation": {
+      "passed": false,
+      "tool_args_correct": true,
+      "facts_correct": false,
+      "category": "ложное «готово»",
+      "expected_calls": [
+        [
+          "nearest_place",
+          {
+            "lat": 47.23,
+            "lon": 39.7,
+            "kind": "outpost"
+          }
+        ],
+        [
+          "place_details",
+          {
+            "place_id": 7541
+          }
+        ]
+      ],
+      "expected_facts": [
+        "+7 800 6000001"
+      ]
+    }
+  }
+]
