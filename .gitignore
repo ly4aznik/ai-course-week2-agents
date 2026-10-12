@@ -6,3 +6,4 @@ __pycache__/
 tmp/
 .env.*
 !.env.example
+/DEFENSE_GUIDE.md
